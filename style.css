@@ -361,6 +361,7 @@ header img {
     top: 6px;
     font-size: 16px;
     font-size: 1rem;
+      text-transform: uppercase;
   }
   .cd-timeline-block:nth-child(even) .cd-timeline-content {
     float: right;
@@ -529,3 +530,27 @@ footer {
     margin-left: 8px;
     padding-bottom: 8px;
 }   
+
+#contact-me li {
+    display: inline-block;
+    margin-right: 24px;
+    margin-bottom: 8px;
+}
+
+#contact-me {
+    margin-top: 60px;
+    margin-left: 16px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#contact-me img {
+    background-color: #09f;
+    top: 0;
+    left: 0;
+    width: 36px;
+    height: 36px;
+    padding:4px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+}
