@@ -170,6 +170,18 @@
                 name: "Troop 123",
                 award: "Eagle Scout",
                 date: "June 2013"
+            }, {
+                type: "Events",
+                name: "Student Activities Conference, 2014",
+                location: "Rowan University",
+                specificDate: "April 4-6",
+                date: "April 2014"
+            }, {
+                type: "Events",
+                name: "ProfHacks 2K16",
+                location: "Rowan University",
+                specificDate: "March 12-13",
+                date: "March 2016"
             }
         ];
         
@@ -280,6 +292,8 @@
                 icon = "icons/briefcase.svg";
             } else if (type == "Awards") {
                 icon = "icons/ribbon.svg";
+            } else if (type == "Events") {
+                icon = "icons/calendar.svg";
             }
             var output = "<div class='cd-timeline-img cd-picture' style='background-color: " + color + "'>";
             output += "<img src='" + icon + "' alt='Picture'>  </div>";
@@ -343,6 +357,10 @@
                     } else if (item.type == "Awards") {
                         output += "<h2>" + item.award + "</h2>";
                         output += "<h3>" + item.name + "</h3>";
+                    } else if (item.type == "Events") {
+                        output += "<h2>Hosted " + item.name + "</h2>";
+                        output += "<h3>" + item.specificDate + "</h3>";
+                        output += "<h3>" + item.location + "</h3>";
                     }
                     output += "</p>";
                     if (item.link !== undefined) {
