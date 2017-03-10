@@ -1,0 +1,241 @@
+<html>
+    <head>
+        <!-- TODO Favicon -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- TODO SEO -->
+        <title>WHOIS? Nick Felker</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link href="reset.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="main.js"></script>
+        <script src="modernizr.js"></script>
+    </head>
+    <body>
+        <header>
+            <img src='https://pbs.twimg.com/profile_images/641433432682328064/klFmop_-_400x400.png' class='profile' />
+            <h1>Nick Felker</h1>
+            <h2>Noogler &emsp; &mdash; &emsp; Computer Engineer &emsp; &mdash; &emsp; Human</h2>
+            <ul id='links'></ul>
+        </header>
+        <h1 id='view_x_items'></h1>
+        <section id='cd-timeline' class='cd-container'>
+
+        </section>
+        <footer>
+            Website format based on <a href='https://codyhouse.co/gem/vertical-timeline/'>Vertical Timeline from CodyHouse</a>.
+        </footer>
+    <script>
+        /* My data 
+         * 
+         * This will be a JSON object so I can easily populate different fields.
+         * Eventually this will move to a separate file.
+         * It may be useful to develop certain types of schema.
+         */
+        /* Some Constants */
+        var READ_FULL_TEXT = "Read Full Text";
+        var VIEW_DEVPOST = "View DevPost Submission";
+        
+        me = [
+            {
+                type: "Publications",
+                name: "Using Wearable Sensors to Collect User Data at an Event as a Live API and for Logistical Planning",
+                publishedAt: "Sensor Applications Symposium 2017, Rowan University",
+                link: "https://www.researchgate.net/publication/312670816_Using_Wearable_Sensors_to_Collect_User_Data_at_an_Event_as_a_Live_API_and_for_Logistical_Planning",
+                linkText: READ_FULL_TEXT,
+                date: "March 2017"
+            },
+            {
+                type: "Publications",
+                name: "Building MemSat: A CubeSat for Testing Resistive Memory",
+                publishedAt: "Sensor Applications Symposium 2017, Rowan University",
+                date: "March 2017"
+            },
+            {
+                type: "Books",
+                name: "The Lost Hunter",
+                series: "The Legion of Supervillans",
+                seriesNo: "1",
+                bookCover: "",
+                link: "https://www.amazon.com/Lost-Hunter-Journal-Legion-Supervillains-ebook/dp/B06XMX9LNW/ref=sr_1_1?ie=UTF8&qid=1489109101&sr=8-1&keywords=nick+felker",
+                linkText: "Purchase eBook for $3",
+                date: "February 2017"
+            }, {
+                type: "Articles",
+                name: "Adding TV Channels to Your App With the TIF Companion Library",
+                link: "https://android-developers.googleblog.com/2016/11/adding-tv-channels-to-your-app-with-the-tif-companion-library.html",
+                linkText: "Read at Android Developers Blog",
+                date: "November 2016"
+            }, {
+                type: "Articles",
+                name: "Started writing for Android TV News",
+                link: "http://androidtv.news",
+                linkText: "Read at Android TV News",
+                date: "September 2015"
+            }, {
+                type: "Hacks",
+                name: "Smart Tattoos",
+                purpose: "PennApps XV",
+                acolades: "Grand Prize, Best Hardware Hack, Best Use of Rapid Prototyping",
+                link: "https://devpost.com/software/smart-tattoos",
+                linkText: VIEW_DEVPOST,
+                date: "January 2017"
+            }, {
+                type: "Hacks",
+                name: "RedSi",
+                purpose: "PennApps XIV",
+                acolades: "Best Education Hack",
+                link: "https://devpost.com/software/redsi",
+                linkText: VIEW_DEVPOST,
+                date: "September 2016"
+            }, {
+                type: "Hacks",
+                name: "Cogni Journal",
+                purpose: "PennApps XIII",
+                link: "https://devpost.com/software/cogni-journal",
+                linkText: VIEW_DEVPOST,
+                date: "January 2016"
+            }, {
+                type: "Hacks",
+                name: "Pyed Piper",
+                purpose: "DragonHacks 2016",
+                acolades: "Best Design, Best Domain Name",
+                link: "https://devpost.com/software/pyed-piper",
+                linkText: VIEW_DEVPOST,
+                date: "January 2016"
+            }, {
+                type: "Hacks",
+                name: "PetApps",
+                purpose: "PennApps XII",
+                link: "https://devpost.com/software/petapps",
+                linkText: VIEW_DEVPOST,
+                date: "September 2015"
+            }, {
+                type: "Hacks",
+                name: "Munch",
+                purpose: "IEEEMADC 2015",
+                acolades: "Best Mobile App Design",
+                link: "https://devpost.com/software/munch-nod0rf",
+                linkText: VIEW_DEVPOST,
+                date: "May 2015"
+            }, {
+                type: "Hacks",
+                name: "nVader",
+                purpose: "Philly Codefest 2015",
+                link: "https://devpost.com/software/nvader-qaopxi",
+                linkText: VIEW_DEVPOST,
+                date: "March 2015"
+            }, {
+                type: "Hacks",
+                name: "The Light Painter's Palette",
+                purpose: "Dragon Hacks 2015",
+                link: "https://devpost.com/software/the-light-painter-s-palette-q5zrh",
+                linkText: VIEW_DEVPOST,
+                date: "January 2015"
+            }
+        ];
+        
+        function dateSort(a, b) {
+            return new Date(b.date) - new Date(a.date);
+        }
+        
+        function alphaSort(map) {
+            keys = [];
+            for (i in map) {
+                keys.push(i);   
+            }
+            return keys.sort();
+        }
+        
+        function populateMenu(categories) {
+            var output = "<li class='filter' onclick='populateTimeline()'>All</li>";
+            console.log(categories);
+            var keys = alphaSort(categories);
+            console.log(keys);
+            for (i in keys) {
+                output += "<li class='filter' onclick='populateTimeline(\"" + keys[i] + "\")'>" + keys[i] + "</li>";
+            }
+            output += "<li class='filter' onclick='contactDialog()'>Contact</li>";
+            document.getElementById('links').innerHTML = output;
+        }
+        
+        function useImage(type) {
+            var icon = "https://0bf196087c14ed19d1f11cf1-ambercreativelab.netdna-ssl.com/wp-content/uploads/2014/06/vertical-timeline-featured.png";
+            var color = "#09f";
+            if (type == "Books") {
+                    
+            }       
+            var output = "<div class='cd-timeline-img cd-picture' style='background-color: " + color + "'>";
+            output += "<img src='" + icon + "' alt='Picture'>  </div>";
+            return output;
+        }
+        
+        function getUrl(url, text) {
+            return "<a href='" + url + "' target='_blank' class='cd-read-more'>" + text + "</a>";
+        }
+        
+        function populateTimeline(filter) {
+            // Reset
+            rehide();
+            document.getElementById('cd-timeline').innerHTML = "";
+            
+            // Sort by date
+            me.sort(dateSort);
+            // Current date
+            currDate = "";
+            // Query categories
+            categories = [];
+            var count = 0;
+            
+            for (var index = 0; index < me.length; index++) {
+                var item = me[index];
+                categories[item.type] = item.type;
+                
+                if ((filter !== undefined && item.type == filter) 
+                        || filter === undefined) {
+                    // Check type
+                    var output = "<div class='cd-timeline-block'>";
+                    output += useImage(item.type);
+                    output += "<div class='cd-timeline-content'><p>";
+                    if (item.type == "Books") {
+                        output += "<h2>" + item.name + "</h2>";
+                        if (item.series !== undefined) {
+                            output += "<h3>" + item.series + " #" + item.seriesNo + "</h3>"; 
+                        }
+                    } else if (item.type == "Publications") {
+                        output += "<h2>" + item.name + "</h2>";
+                        output += "<em>" + item.publishedAt + "</em>";
+                    } else if (item.type == "Hacks") {
+                        output += "<h2>" + item.name + "</h2>";
+                        if (item.purpose !== undefined) {
+                            output += "<h3>Built at " + item.purpose + "</h3>";
+                        }
+                        if (item.acolades !== undefined) {
+                            output += "<em>" + item.acolades + "</em>";   
+                        }
+                    }
+                    output += "</p>";
+                    if (item.link !== undefined) {
+                        output += getUrl(item.link, item.linkText);
+                    }
+                    if (currDate != item.date) {
+                        output += "<span class='cd-date'>" + item.date + "</span>";   
+                        currDate = item.date;
+                    }
+                    output += "</div></div>";
+                    document.getElementById('cd-timeline').innerHTML += output;
+                    count++;
+                    document.getElementById('view_x_items').innerHTML = count + ((count == 1) ? " Item" : " Items");
+                }
+            }
+            rehide();
+            return categories;
+        }
+        
+        window.onload = function() {
+            categories = populateTimeline();
+            populateMenu(categories);
+        };
+    </script>
+    </body>
+</html>
