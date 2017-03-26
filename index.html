@@ -40,6 +40,7 @@
         /* Some Constants */
         var READ_FULL_TEXT = "Read Full Text";
         var VIEW_DEVPOST = "View DevPost Submission";
+        var READ_ARTICLE = "Read Article";
         
         me = [
             {
@@ -137,6 +138,7 @@
                 name: "The Light Painter's Palette",
                 purpose: "Dragon Hacks 2015",
                 link: "https://devpost.com/software/the-light-painter-s-palette-q5zrh",
+                acolades: "2nd Place",
                 linkText: VIEW_DEVPOST,
                 date: "January 2015"
             }, {
@@ -184,6 +186,48 @@
                 location: "Rowan University",
                 specificDate: "March 12-13",
                 date: "March 2016"
+            }, {
+                type: "News",
+                name: "Bowe School students explore hands-on engineering",
+                publication: "NJ.com",
+                link: "http://www.nj.com/south-jersey-towns/index.ssf/2017/03/bowe_school_students_explore_h.html",
+                linkText: READ_ARTICLE,
+                date: "March 2017"
+            }, {
+                type: "News",
+                name: "LIVE BLOG: PROFHacks 2017 pits students against each other in &#39;hackathon&#39;",
+                publication: "The Whit",
+                link: "http://thewhitonline.com/2017/02/news/live-blog-profhacks-2017-pits-students-against-each-other-in-hackathon/",
+                linkText: READ_ARTICLE,
+                date: "February 2017"
+            }, {
+                type: "News",
+                name: "Rowan University&#39;s first hackathon is focused on the physical web",
+                publication: "Technically Philly",
+                link: "http://technical.ly/philly/2016/03/10/rowan-university-hackathon/",
+                linkText: READ_ARTICLE,
+                date: "March 2016"
+            }, {
+                type: "News",
+                name: "Students create technological tools at Rowan hackathon",
+                publication: "Courier Post",
+                link: "http://www.courierpostonline.com/story/news/2016/03/13/rowan-engages-in-first-ever-hackathon/81581144/",
+                linkText: READ_ARTICLE,
+                date: "March 2016"
+            }, {
+                type: "News",
+                name: "Student computer whizzes compete at PennApps Hackathon",
+                publication: "The Philadelphia Inquirer",
+                link: "http://www.philly.com/philly/news/20150906_Student_computer_whizzes_compete_at_PennApps_Hackathon.html",
+                linkText: READ_ARTICLE,
+                date: "September 2015"
+            }, {
+                type: "News",
+                name: "Glassboro High School to present &#39;Beauty and the Beast&#39;",
+                publication: "NJ.com",
+                link: "http://www.nj.com/gloucester-county/index.ssf/2012/02/glassboro_high_school_to_prese_1.html",
+                linkText: READ_ARTICLE,
+                date: "February 2012"
             }
         ];
         
@@ -277,7 +321,7 @@
         
         function useImage(type) {
             var icon = "icons/checkbox-blank-circle.svg";
-            var color = "#09f";
+            var color = "#4CAF50";
             if (type == "Books") {
                 icon = "icons/library.svg";
             } else if (type == "Articles") {
@@ -363,6 +407,11 @@
                         output += "<h2>Hosted " + item.name + "</h2>";
                         output += "<h3>" + item.specificDate + "</h3>";
                         output += "<h3>" + item.location + "</h3>";
+                    } else if (item.type == "News") {
+                        output += "<h2>" + item.name + "</h2>";
+                        output += "<h3>" + item.publication + "</h3>";
+                    } else {
+                        output += "<h2>" + item.name + "</h2>";
                     }
                     output += "</p>";
                     if (item.link !== undefined) {
