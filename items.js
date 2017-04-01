@@ -118,7 +118,7 @@ me = [
         name: "Google",
         position: "Developer Relations Intern, Android TV & IoT",
         ended: "August 2016",
-        date: "May 2016"
+        date: "May 20 2016"
     }, {
         type: "Employment",
         name: "Rowan University",
@@ -209,6 +209,18 @@ me = [
         date: "September 2016"
     }, {
         type: "Projects",
+        name: "Laser Harp",
+        description: "Designed a MIDI instrument that communicates over BLE",
+        date: "May 1 2016"
+    }, {
+        type: "Projects",
+        name: "Inverted Pendulum",
+        description: "Developed an inverted pendulum through an embedded PID controller",
+        link: "https://www.researchgate.net/publication/311493383_Implementation_of_an_Inverted_Pendulum_PID_Control_System_Using_a_Stepper_Motor?_iepl%5BviewId%5D=tdZGktk04GBOqR714ovQah2n&_iepl%5BprofilePublicationItemVariant%5D=default&_iepl%5Bcontexts%5D%5B0%5D=prfpi&_iepl%5BinteractionType%5D=publicationTitle",
+        linkText: READ_FULL_TEXT,
+        date: "May 1 2016"
+    }, {
+        type: "Projects",
         name: "CultureCloud",
         description: "Issued software updates to start-up Android app",
         link: "http://culturecloudapp.com/",
@@ -219,5 +231,10 @@ me = [
         name: "Automatic Pothole Detection",
         description: "Develops software to allow for DoT detection of potholes",
         date: "September 2015"
+    }, {
+        type: "Projects",
+        name: "Google Glass Medical Application",
+        description: "Worked on a Glass app for use in the medical industry",
+        date: "January 2014"
     }
 ];
