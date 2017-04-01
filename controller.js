@@ -121,6 +121,9 @@ function populateTimeline(filter) {
             } else if (item.type == "News") {
                 output += "<h2>" + item.name + "</h2>";
                 output += "<h3>" + item.publication + "</h3>";
+            } else if (item.type == "Projects") {
+                output += "<h2>" + item.name + "</h2>";
+                output += "<h3>" + item.description + "</h3>";            
             } else {
                 output += "<h2>" + item.name + "</h2>";
             }

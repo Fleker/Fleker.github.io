@@ -16,7 +16,7 @@ me = [
         publishedAt: "Sensor Applications Symposium 2017, Rowan University",
         link: "https://www.researchgate.net/publication/312670816_Using_Wearable_Sensors_to_Collect_User_Data_at_an_Event_as_a_Live_API_and_for_Logistical_Planning",
         linkText: READ_FULL_TEXT,
-        date: "March 2017"
+        date: "March 15 2017"
     },
     {
         type: "Publications",
@@ -24,7 +24,7 @@ me = [
         publishedAt: "Sensor Applications Symposium 2017, Rowan University",
         linkText: READ_FULL_TEXT,
         link: "https://www.researchgate.net/publication/315063307_Building_MemSat_A_CubeSat_for_Testing_Resistive_Memory",
-        date: "March 2017",
+        date: "March 15 2017",
     },
     {
         type: "Books",
@@ -200,5 +200,24 @@ me = [
         link: "http://www.nj.com/gloucester-county/index.ssf/2012/02/glassboro_high_school_to_prese_1.html",
         linkText: READ_ARTICLE,
         date: "February 2012"
+    }, {
+        type: "Projects",
+        name: "MemSat",
+        description: "Acted as project manager for Command & Data Handling subsystem",
+        link: "http://memsat.space",
+        linkText: "Learn more",
+        date: "September 2016"
+    }, {
+        type: "Projects",
+        name: "CultureCloud",
+        description: "Issued software updates to start-up Android app",
+        link: "http://culturecloudapp.com/",
+        linkText: "Visit App",
+        date: "January 2016"
+    }, {
+        type: "Projects",
+        name: "Automatic Pothole Detection",
+        description: "Develops software to allow for DoT detection of potholes",
+        date: "September 2015"
     }
 ];
