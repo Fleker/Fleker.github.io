@@ -10,6 +10,14 @@ function alphaSort(map) {
     return keys.sort();
 }
 
+function getDisplayDate(date) {
+    if (date == undefined || date == '') {
+        return '';
+    }
+    var m = ["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"];
+    return m[new Date(date).getMonth()] + " " + (new Date(date).getYear() + 1900);
+}
+
 function populateMenu(categories) {
     var output = "<li class='filter' onclick='populateTimeline()'>All</li>";
     console.log(categories);
@@ -120,8 +128,8 @@ function populateTimeline(filter) {
             if (item.link !== undefined) {
                 output += getUrl(item.link, item.linkText);
             }
-            if (currDate != item.date) {
-                output += "<span class='cd-date'>" + item.date + "</span>";   
+            if (getDisplayDate(currDate) != getDisplayDate(item.date)) {
+                output += "<span class='cd-date'>" + getDisplayDate(item.date) + "</span>";   
                 currDate = item.date;
             }
             output += "</div></div>";
@@ -148,12 +156,14 @@ function contactDialog() {
         }
     }
     output += "</ul>";
-    document.getElementById('contact-me').innerHTML = output;
+    document.getElementById('contact-list').innerHTML = output;
 
     var count = contact.length; 
     document.getElementById('view_x_items').innerHTML = count + ((count == 1) ? " Item" : " Items");
-    $('#contact-me').fadeIn(400);
-    $('#cd-timeline').fadeOut(400);
+    $('#cd-timeline').fadeOut(200);
+    setTimeout(function() {
+        $('#contact-me').fadeIn(200);
+    }, 200);
 }
 
 window.onload = function() {

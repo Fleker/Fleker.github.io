@@ -135,7 +135,7 @@ me = [
         type: "Awards",
         name: "Rowan Idea Pitch Competition - Smart Tattoos",
         award: "2nd Place",
-        date: "March 2017"
+        date: "March 31 2017"
     }, {
         type: "Awards",
         name: "IEEE Sumo Robotics Kit Competition",
