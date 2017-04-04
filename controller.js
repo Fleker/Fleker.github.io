@@ -14,7 +14,7 @@ function getDisplayDate(date) {
     if (date == undefined || date == '') {
         return '';
     }
-    var m = ["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"];
+    var m = ["JANUARY", "FEBRUARY", "MARCH", "APRIL", "MAY", "JUNE", "JULY", "AUGUST", "SEPTEMBER", "OCTOBER", "NOVEMBER", "DECEMBER"];
     return m[new Date(date).getMonth()] + " " + (new Date(date).getYear() + 1900);
 }
 

@@ -49,6 +49,14 @@ me = [
         date: "September 2015"
     }, {
         type: "Hacks",
+        name: "Personal Sound Beam",
+        purpose: "Dragon Hacks 2017",
+        acolades: "Third Place",
+        link: "https://devpost.com/software/personal-sound-beam",
+        linkText: VIEW_DEVPOST,
+        date: "April 2017"
+    }, {
+        type: "Hacks",
         name: "Smart Tattoos",
         purpose: "PennApps XV",
         acolades: "Grand Prize, Best Hardware Hack, Best Use of Rapid Prototyping",
