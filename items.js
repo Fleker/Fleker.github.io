@@ -156,6 +156,12 @@ me = [
         date: "June 2013"
     }, {
         type: "Events",
+        name: "Student Activities Conference, 2017",
+        location: "Rowan University",
+        specificDate: "April 7-9",
+        date: "April 2017"
+    }, {
+        type: "Events",
         name: "Student Activities Conference, 2014",
         location: "Rowan University",
         specificDate: "April 4-6",
