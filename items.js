@@ -118,10 +118,21 @@ me = [
         date: "January 2015"
     }, {
         type: "Education",
+        name: "Graduated Rowan University, BS Electrical & Computer Engineering, Minor Computer Science, Honors Concentration",
+        gpa: "3.5",
+        date: "May 2017"
+    }, {
+        type: "Education",
         name: "Graduated Glassboro High School",
         gpa: "4.0",
         date: "June 2013"
     }, {
+        type: "Employment",
+        name: "Google",
+        position: "Developer Programs Engineer - IoT & Assistant",
+        ended: "Present",
+        date: "June 19 2017"
+    },{
         type: "Employment",
         name: "Google",
         position: "Developer Relations Intern, Android TV & IoT",
@@ -131,7 +142,7 @@ me = [
         type: "Employment",
         name: "Rowan University",
         position: "Web Development for College of Science and Math & College of Engineering",
-        ended: "Present",
+        ended: "May 2017",
         date: "August 2015"
     }, {
         type: "Employment",
