@@ -11,6 +11,12 @@ var READ_ARTICLE = "Read Article";
 
 me = [
     {
+        type: "Videos",
+        name: "Integrating Live Data into Hackathons - MLH Hackcon V",
+        date: "August 6 2017",
+        link: "https://www.youtube.com/watch?v=vFyOAY8bNk4"
+    },
+    {
         type: "Publications",
         name: "Using Wearable Sensors to Collect User Data at an Event as a Live API and for Logistical Planning",
         publishedAt: "Sensor Applications Symposium 2017, Rowan University",
