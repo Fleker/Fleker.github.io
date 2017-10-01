@@ -4,17 +4,20 @@
  * Eventually this will move to a separate file.
  * It may be useful to develop certain types of schema.
  */
+
 /* Some Constants */
-var READ_FULL_TEXT = "Read Full Text";
-var VIEW_DEVPOST = "View DevPost Submission";
-var READ_ARTICLE = "Read Article";
+const READ_FULL_TEXT = "Read Full Text";
+const VIEW_DEVPOST = "View DevPost Submission";
+const READ_ARTICLE = "Read Article";
+const WATCH_VIDEO = "Watch the Video";
 
 me = [
     {
         type: "Videos",
         name: "Integrating Live Data into Hackathons - MLH Hackcon V",
         date: "August 6 2017",
-        link: "https://www.youtube.com/watch?v=vFyOAY8bNk4"
+        link: "https://www.youtube.com/watch?v=vFyOAY8bNk4",
+        linkText: WATCH_VIDEO
     },
     {
         type: "Publications",
