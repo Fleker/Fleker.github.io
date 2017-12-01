@@ -51,14 +51,16 @@ function useImage(type) {
         icon = "icons/ribbon.svg";
     } else if (type == "Events") {
         icon = "icons/calendar.svg";
+    } else if (type == "Patents") {
+        icon = "icons/bank.svg";
     }
-    var output = "<div class='cd-timeline-img cd-picture' style='background-color: " + color + "'>";
-    output += "<img src='" + icon + "' alt='Picture'>  </div>";
+    var output = `<div class='cd-timeline-img cd-picture' style='background-color: ${color}'>
+        <img src='${icon}' alt='${type}'></div>`;
     return output;
 }
 
 function getUrl(url, text) {
-    return "<a href='" + url + "' target='_blank' class='cd-read-more'>" + text + "</a>";
+    return `<a href='${url}' target='_blank' class='cd-read-more'>${text}</a>`;
 }
 
 function populateTimeline(filter) {
@@ -124,6 +126,9 @@ function populateTimeline(filter) {
             } else if (item.type == "Projects") {
                 output += "<h2>" + item.name + "</h2>";
                 output += "<h3>" + item.description + "</h3>";            
+            } else if (item.type == "Patents") {
+                output += `<h2>${item.name}</h2>`;
+                output += `<h3>${item.subtype}</h3>`;            
             } else {
                 output += "<h2>" + item.name + "</h2>";
             }
@@ -132,7 +137,7 @@ function populateTimeline(filter) {
                 output += getUrl(item.link, item.linkText);
             }
             if (getDisplayDate(currDate) != getDisplayDate(item.date)) {
-                output += "<span class='cd-date'>" + getDisplayDate(item.date) + "</span>";   
+                output += `<span class='cd-date'>${getDisplayDate(item.date)}</span>`;   
                 currDate = item.date;
             }
             output += "</div></div>";

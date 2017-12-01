@@ -13,6 +13,14 @@ const WATCH_VIDEO = "Watch the Video";
 
 me = [
     {
+        type: "Patents",
+        subtype: "Defensive Publication",
+        date: "November 19 2017",
+        name: "Automatic polls in group chat conversations",
+        link: "http://www.tdcommons.org/dpubs_series/822/",
+        linkText: READ_FULL_TEXT
+    },
+    {
         type: "Videos",
         name: "Integrating Live Data into Hackathons - MLH Hackcon V",
         date: "August 6 2017",
