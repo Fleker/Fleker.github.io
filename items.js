@@ -6,43 +6,13 @@
  */
 
 /* Some Constants */
+const LEARN_MORE = "Learn More";
 const READ_FULL_TEXT = "Read Full Text";
 const VIEW_DEVPOST = "View DevPost Submission";
 const READ_ARTICLE = "Read Article";
 const WATCH_VIDEO = "Watch the Video";
 
 me = [
-    {
-        type: "Patents",
-        subtype: "Defensive Publication",
-        date: "November 19 2017",
-        name: "Automatic polls in group chat conversations",
-        link: "http://www.tdcommons.org/dpubs_series/822/",
-        linkText: READ_FULL_TEXT
-    },
-    {
-        type: "Videos",
-        name: "Integrating Live Data into Hackathons - MLH Hackcon V",
-        date: "August 6 2017",
-        link: "https://www.youtube.com/watch?v=vFyOAY8bNk4",
-        linkText: WATCH_VIDEO
-    },
-    {
-        type: "Publications",
-        name: "Using Wearable Sensors to Collect User Data at an Event as a Live API and for Logistical Planning",
-        publishedAt: "Sensor Applications Symposium 2017, Rowan University",
-        link: "https://www.researchgate.net/publication/312670816_Using_Wearable_Sensors_to_Collect_User_Data_at_an_Event_as_a_Live_API_and_for_Logistical_Planning",
-        linkText: READ_FULL_TEXT,
-        date: "March 15 2017"
-    },
-    {
-        type: "Publications",
-        name: "Building MemSat: A CubeSat for Testing Resistive Memory",
-        publishedAt: "Sensor Applications Symposium 2017, Rowan University",
-        linkText: READ_FULL_TEXT,
-        link: "https://www.researchgate.net/publication/315063307_Building_MemSat_A_CubeSat_for_Testing_Resistive_Memory",
-        date: "March 15 2017",
-    },
     {
         type: "Books",
         name: "The Lost Hunter",
@@ -243,11 +213,18 @@ me = [
         linkText: READ_ARTICLE,
         date: "February 2012"
     }, {
+        type: "Patents",
+        subtype: "Defensive Publication",
+        date: "November 19 2017",
+        name: "Automatic polls in group chat conversations",
+        link: "http://www.tdcommons.org/dpubs_series/822/",
+        linkText: READ_FULL_TEXT
+    }, {
         type: "Projects",
         name: "MemSat",
         description: "Acted as project manager for Command & Data Handling subsystem",
         link: "http://memsat.space",
-        linkText: "Learn more",
+        linkText: LEARN_MORE,
         date: "September 2016"
     }, {
         type: "Projects",
@@ -278,5 +255,25 @@ me = [
         name: "Google Glass Medical Application",
         description: "Worked on a Glass app for use in the medical industry",
         date: "January 2014"
+    }, {
+        type: "Publications",
+        name: "Using Wearable Sensors to Collect User Data at an Event as a Live API and for Logistical Planning",
+        publishedAt: "Sensor Applications Symposium 2017, Rowan University",
+        link: "https://www.researchgate.net/publication/312670816_Using_Wearable_Sensors_to_Collect_User_Data_at_an_Event_as_a_Live_API_and_for_Logistical_Planning",
+        linkText: READ_FULL_TEXT,
+        date: "March 15 2017"
+    }, {
+        type: "Publications",
+        name: "Building MemSat: A CubeSat for Testing Resistive Memory",
+        publishedAt: "Sensor Applications Symposium 2017, Rowan University",
+        linkText: READ_FULL_TEXT,
+        link: "https://www.researchgate.net/publication/315063307_Building_MemSat_A_CubeSat_for_Testing_Resistive_Memory",
+        date: "March 15 2017",
+    }, {
+        type: "Videos",
+        name: "Integrating Live Data into Hackathons - MLH Hackcon V",
+        date: "August 6 2017",
+        link: "https://www.youtube.com/watch?v=vFyOAY8bNk4",
+        linkText: WATCH_VIDEO
     }
 ];
