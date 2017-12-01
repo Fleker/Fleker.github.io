@@ -154,6 +154,38 @@ me = [
         date: "June 2013"
     }, {
         type: "Events",
+        name: "Felker Week",
+        location: "Rowan University",
+        date: "November 17 2017",
+        specificDate: 'November 17-23',
+        contribution: "Helped at"
+    }, {
+        type: "Events",
+        name: "Intuit Quickbooks Small Business Hackathon",
+        location: "Intuit HQ Mountain View",
+        link: "https://www.smallbizhack.com/",
+        linkText: LEARN_MORE,
+        date: "November 11 2017",
+        specificDate: 'November 11-12',
+        contribution: "Judged at"
+    }, {
+        type: "Events",
+        name: "Dashbot Hackathon",
+        location: "San Francisco",
+        link: "https://www.meetup.com/Dashbot-Bot-Meetup-San-Francisco-New-Technology/events/243582992/",
+        linkText: LEARN_MORE,
+        date: "November 4 2017",
+        specificDate: 'November 4',
+        contribution: "Judged at"
+    }, {
+        type: "Events",
+        name: "GDE Europe 2017",
+        location: "Krakow, Poland",
+        date: "September 5 2017",
+        specificDate: 'September 5-6',
+        contribution: "Helped at"
+    }, {
+        type: "Events",
         name: "Student Activities Conference, 2017",
         location: "Rowan University",
         specificDate: "April 7-9",
@@ -170,6 +202,13 @@ me = [
         location: "Rowan University",
         specificDate: "March 12-13",
         date: "March 2016"
+    }, {
+        type: "News",
+        name: "Here's How Twitter Users Reacted To Android Oreo Launch",
+        publication: "TechTree",
+        link: "http://www.techtree.com/content/features/13174/s-how-twitter-users-reacted-android-oreo-launch.html",
+        linkText: READ_ARTICLE,
+        date: "August 22 2017"
     }, {
         type: "News",
         name: "Bowe School students explore hands-on engineering",
