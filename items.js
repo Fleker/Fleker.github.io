@@ -254,6 +254,48 @@ me = [
     }, {
         type: "Patents",
         subtype: "Defensive Publication",
+        date: "December 8 2017",
+        name: "System Volume Compensating for Environmental Noise",
+        link: "http://www.tdcommons.org/dpubs_series/903/",
+        linkText: READ_FULL_TEXT
+    }, {
+        type: "Patents",
+        subtype: "Defensive Publication",
+        date: "December 8 2017",
+        name: "Using Music to Affect Mood Based on Sentiment Analysis",
+        link: "http://www.tdcommons.org/dpubs_series/902/",
+        linkText: READ_FULL_TEXT
+    }, {
+        type: "Patents",
+        subtype: "Defensive Publication",
+        date: "December 8 2017",
+        name: "Planning Group Meals Based on Preferences of Attendees",
+        link: "http://www.tdcommons.org/dpubs_series/901/",
+        linkText: READ_FULL_TEXT
+    }, {
+        type: "Patents",
+        subtype: "Defensive Publication",
+        date: "December 8 2017",
+        name: "Font Optimization Based on User Reading Habits",
+        link: "http://www.tdcommons.org/dpubs_series/900/",
+        linkText: READ_FULL_TEXT
+    }, {
+        type: "Patents",
+        subtype: "Defensive Publication",
+        date: "December 8 2017",
+        name: "Providing Relevant Advertisements Based on Item-Specific Purchase History",
+        link: "http://www.tdcommons.org/dpubs_series/897/",
+        linkText: READ_FULL_TEXT
+    }, {
+        type: "Patents",
+        subtype: "Defensive Publication",
+        date: "December 8 2017",
+        name: "Configuring Alarm System Based on Time to Arrive at Appointment",
+        link: "http://www.tdcommons.org/dpubs_series/890/",
+        linkText: READ_FULL_TEXT
+    }, {
+        type: "Patents",
+        subtype: "Defensive Publication",
         date: "November 19 2017",
         name: "Automatic polls in group chat conversations",
         link: "http://www.tdcommons.org/dpubs_series/822/",
