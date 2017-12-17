@@ -254,6 +254,27 @@ me = [
     }, {
         type: "Patents",
         subtype: "Defensive Publication",
+        date: "December 12 2017",
+        name: "Fitness Program for User-Defined Goals",
+        link: "http://www.tdcommons.org/dpubs_series/944/",
+        linkText: READ_FULL_TEXT
+    }, {
+        type: "Patents",
+        subtype: "Defensive Publication",
+        date: "December 12 2017",
+        name: "Providing Reader Assistance Based on Reader Interaction",
+        link: "http://www.tdcommons.org/dpubs_series/942/",
+        linkText: READ_FULL_TEXT
+    }, {
+        type: "Patents",
+        subtype: "Defensive Publication",
+        date: "December 12 2017",
+        name: "Correcting Image Anomalies Using Machine Learning",
+        link: "http://www.tdcommons.org/dpubs_series/945/",
+        linkText: READ_FULL_TEXT
+    }, {
+        type: "Patents",
+        subtype: "Defensive Publication",
         date: "December 8 2017",
         name: "System Volume Compensating for Environmental Noise",
         link: "http://www.tdcommons.org/dpubs_series/903/",
