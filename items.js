@@ -154,11 +154,18 @@ me = [
         date: "June 2013"
     }, {
         type: "Events",
+        name: "U of T Hacks",
+        location: "Toronto, Canada",
+        date: "January 19 2018",
+        specificDate: "January 19-21",
+        contribution: "Judged At"
+    }, {
+        type: "Events",
         name: "Felker Week",
         location: "Rowan University",
         date: "November 17 2017",
         specificDate: 'November 17-23',
-        contribution: "Helped at"
+        contribution: "Hosted"
     }, {
         type: "Events",
         name: "Intuit Quickbooks Small Business Hackathon",
@@ -176,6 +183,15 @@ me = [
         linkText: LEARN_MORE,
         date: "November 4 2017",
         specificDate: 'November 4',
+        contribution: "Judged at"
+    }, {
+        type: "Events",
+        name: "PennApps XVI",
+        location: "Philadelphia",
+        link: "http://2017f.pennapps.com/",
+        linkText: LEARN_MORE,
+        date: "September 8 2017",
+        specificDate: "September 8-10",
         contribution: "Judged at"
     }, {
         type: "Events",
@@ -202,6 +218,13 @@ me = [
         location: "Rowan University",
         specificDate: "March 12-13",
         date: "March 2016"
+    }, {
+        type: "News",
+        name: "What makes Glassboro High School a great start for future greatness",
+        publication: "Boro Briefs",
+        link: "https://www.yumpu.com/en/document/view/59470697/boro-briefs-fall-2017/share/x/0/y/0/w/495/h/640/page/4",
+        linkText: READ_ARTICLE,
+        date: "October 23 2017"
     }, {
         type: "News",
         name: "Here's How Twitter Users Reacted To Android Oreo Launch",
