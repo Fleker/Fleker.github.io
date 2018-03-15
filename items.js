@@ -225,14 +225,14 @@ me = [
         link: "https://www.yumpu.com/en/document/view/59470697/boro-briefs-fall-2017/share/x/0/y/0/w/495/h/640/page/4",
         linkText: READ_ARTICLE,
         date: "October 23 2017"
-    }, {
+    }, /*{
         type: "News",
         name: "Here's How Twitter Users Reacted To Android Oreo Launch",
         publication: "TechTree",
         link: "http://www.techtree.com/content/features/13174/s-how-twitter-users-reacted-android-oreo-launch.html",
         linkText: READ_ARTICLE,
         date: "August 22 2017"
-    }, {
+    }, */{
         type: "News",
         name: "Bowe School students explore hands-on engineering",
         publication: "NJ.com",
