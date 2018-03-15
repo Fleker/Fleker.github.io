@@ -396,6 +396,12 @@ me = [
         date: "March 15 2017",
     }, {
         type: "Videos",
+        name: "Integrating Smart Home Devices with the Google Assistant",
+        date: "February 7 2018",
+        link: "https://youtu.be/XdZXpFBvTP8",
+        linkText: WATCH_VIDEO 
+    }, {
+        type: "Videos",
         name: "Integrating Live Data into Hackathons - MLH Hackcon V",
         date: "August 6 2017",
         link: "https://www.youtube.com/watch?v=vFyOAY8bNk4",
