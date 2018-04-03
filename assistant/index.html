@@ -1,0 +1,117 @@
+<html>
+    <head>
+        <!-- TODO Favicon -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- TODO SEO -->
+        <title>Nick Felker</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link href="../css/reset.css" rel="stylesheet">
+        <link href="../css/style.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="../scripts/main.js"></script>
+        <script src="../scripts/modernizr.js"></script>
+
+        <style>
+            .cd-timeline-img > img {
+                width: 100%;
+                height: 100%;
+                left: 0px;
+                top: 0px;
+                margin: 0;
+                border-radius: 100%;
+            }
+            .cd-source-code {
+                margin-right: 24px;
+                margin-left: 24px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <img src='https://pbs.twimg.com/profile_images/641433432682328064/klFmop_-_400x400.png' class='profile' />
+            <h1>Nick Felker</h1>
+            <table>
+                <tr>
+                    <td><h2>Noogler</h2></td>
+                    <td><h2>&mdash;</h2></td>
+                    <td><h2>Computer Engineer</h2></td>
+                    <td><h2>&mdash;</h2></td>
+                    <td><h2>Pokemon Master</h2></td>
+                </tr>
+            </table>
+            <ul id='links'></ul>
+        </header>
+        <section style='text-align:center'>
+            <p>These are all apps that I have built for the Google Assistant.</p>
+            <p>To use any of them, just invoke the Google Assistant and say: "Talk to {name of app}"</p>
+        </section>
+        <h1 id='view_x_items'></h1>
+        <section id='cd-timeline' class='cd-container'>
+        </section>
+        <footer>
+            Website format based on <a href='https://codyhouse.co/gem/vertical-timeline/'>Vertical Timeline from CodyHouse</a>.
+            <br>
+            Icons sourced from <a href='https://materialdesignicons.com/'>Material Design Icons</a>
+        </footer>
+        <script>
+            // Generate HTML
+            const apps = [{
+                name: 'Capacitance Decoder',
+                description: 'Determines capacitance based on capacitor alphanumeric codes',
+                image: 'https://lh3.googleusercontent.com/ict2EQ0tU9Nz5K5ivKGm8o5hN0AJ3NqUYUgXwviHGsoRib9rJWOVjl9CETOHVm3VPvT2p0eTm0BThA=s180',
+                link: 'https://assistant.google.com/services/a/uid/00000079337cf255?hl=en' 
+            }, {
+                name: 'Dungeon Master Dice',
+                description: 'Provides dice rolls for a number of advanced configurations',
+                image: 'http://lh3.googleusercontent.com/HcDx9sWrTs5iJspTJuUet1oLVLyvPGLuXnLr0rMzASHESaTmuR9c1ujfNKESAgB2A0YPU1FNuuJxzw=s180',
+                link: 'https://assistant.google.com/services/a/uid/000000857411363c?hl=en' 
+            }, {
+                name: 'Nick the Hologram',
+                description: 'A chatbot version of myself',
+                image: 'http://lh3.googleusercontent.com/9VT7AmRyUZw2dFM9Mz48tW6eKjg1YqE3ydAS2XrlLOsF0Ec__9m0szPD5XdUrJTefoKddgwlh48=s180',
+                link: 'https://assistant.google.com/services/a/uid/0000007afa6635e6?hl=en' 
+            }, {
+                name: 'Micro Meditation',
+                description: 'Creates soundscapes controlled by your voice with SSML',
+                image: 'http://lh3.googleusercontent.com/BLagixGdKVCuzo19InnpUwzActBEeI03RfmoVcO4d5dhlF3yH2NREigwGFPFXTGEfe5leKEwM01F=s180',
+                link: 'https://assistant.google.com/services/a/uid/000000497d99d548?hl=en' 
+            }, {
+                name: 'Phonetic Alphabet',
+                description: 'Provides users with phonetic alphabet translations',
+                image: 'http://lh3.googleusercontent.com/_l3LFFRsde8c-MpQmZaQNYCd9IUQ5LHcBudd-jHoHO9Ka5rSDUjS08mtyZDlVuSAJbLJ6UMD9v_A=s180',
+                link: 'https://assistant.google.com/services/a/uid/0000004f862b3de3?hl=en'
+            }, {
+                name: 'Electronics Glossary',
+                description: 'Trivia game that tests your knowledge of electronics',
+                image: 'https://lh3.googleusercontent.com/-rnXARfRRUpk/WeZKw0-PYcI/AAAAAAAACWw/0DOGEHkqzkYFVjxK4uVKIde3IQLfhoi_ACMYCGAYYCw/s180/logo.png',
+                link: 'https://assistant.google.com/services/a/uid/000000ecc78db77a?hl=en',
+                github: 'https://github.com/Fleker/electronics-glossary'
+            }, {
+                name: 'Resistance Decoder',
+                description: 'Determines impedance based on resistor colors',
+                image: 'http://lh3.googleusercontent.com/laCIMVAebMpm-gv-rItUUNHHQ8PD-87o9DoSMn2UtZa6yJaP68S2K-NKQ5689GAbKMPmktBCtQPO=s180',
+                link: 'https://assistant.google.com/services/a/uid/00000044d0fd5a70?hl=en',
+                github: 'https://github.com/Fleker/resistance-decoder'
+            }];
+
+            let content = '';
+            for (i = 0; i < apps.length; i++) {
+                const a = apps[i];
+                content += `<div class="cd-timeline-block">
+                <div class="cd-timeline-img cd-picture" style="background-color: #4CAF50">
+                    <img src="${a.image}" alt="${a.name}">
+                </div>
+                <div class="cd-timeline-content">
+                    <h2>${a.name}</h2>
+                    <p>${a.description}</p>
+                    <a href="${a.link}" target="_blank" class="cd-read-more">Explore</a>&emsp;
+                    ${a.github ? `<a href="${a.github}" target="_blank" class="cd-read-more cd-source-code">Source</a>` : ``}
+                    <span class="cd-date"></span>
+                </div>
+            </div>`;
+            }
+            document.querySelector('#cd-timeline').innerHTML = content;
+            document.getElementById('view_x_items').innerHTML = `${apps.length} items`; 
+        </script>
+    </body>
+</html>
