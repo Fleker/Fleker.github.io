@@ -15,6 +15,16 @@ const WATCH_VIDEO = "Watch the Video";
 me = [
     {
         type: "Books",
+        name: "The Forgotten Hero",
+        series: "The Legion of Supervillans",
+        seriesNo: "2",
+        bookCover: "",
+        link: "https://www.amazon.com/Forgotten-Hero-Memorial-Mordred-Supervillains-ebook/dp/B07BPW5YS1/ref=sr_1_2?ie=UTF8&qid=1522729623&sr=8-2&keywords=nick+felker",
+        linkText: "Purchase eBook for $3",
+        date: "March 2018"
+    },
+    {
+        type: "Books",
         name: "The Lost Hunter",
         series: "The Legion of Supervillans",
         seriesNo: "1",
@@ -152,6 +162,20 @@ me = [
         name: "Troop 123",
         award: "Eagle Scout",
         date: "June 2013"
+    }, {
+        type: "Events",
+        name: "International Women's Day",
+        location: "Sunnyvale, California",
+        date: "March 3 2018",
+        specificDate: "March 3",
+        contribution: "Led workshop at"
+    }, {
+        type: "Events",
+        name: "DroidKaigi",
+        location: "Tokyo, Japan",
+        date: "February 9 2018",
+        specificDate: "February 8-9",
+        contribution: "Hosted workshop at"
     }, {
         type: "Events",
         name: "U of T Hacks",
