@@ -22,8 +22,7 @@ me = [
         link: "https://www.amazon.com/Forgotten-Hero-Memorial-Mordred-Supervillains-ebook/dp/B07BPW5YS1/ref=sr_1_2?ie=UTF8&qid=1522729623&sr=8-2&keywords=nick+felker",
         linkText: "Purchase eBook for $3",
         date: "March 2018"
-    },
-    {
+    }, {
         type: "Books",
         name: "The Lost Hunter",
         series: "The Legion of Supervillans",
@@ -301,6 +300,13 @@ me = [
     }, {
         type: "Patents",
         subtype: "Defensive Publication",
+        date: "April 5 2018",
+        name: "Voice input for authentication",
+        link: "https://www.tdcommons.org/dpubs_series/1128/",
+        linkText: READ_FULL_TEXT
+    }, {
+        type: "Patents",
+        subtype: "Defensive Publication",
         date: "December 12 2017",
         name: "Fitness Program for User-Defined Goals",
         link: "http://www.tdcommons.org/dpubs_series/944/",
@@ -418,6 +424,12 @@ me = [
         linkText: READ_FULL_TEXT,
         link: "https://www.researchgate.net/publication/315063307_Building_MemSat_A_CubeSat_for_Testing_Resistive_Memory",
         date: "March 15 2017",
+    }, {
+        type: "Videos",
+        name: "Introduction to Custom Device Actions for the Google Assistant SDK",
+        date: "April 6 2018",
+        link: "https://youtu.be/rKf6CNJsaPM",
+        linkText: WATCH_VIDEO 
     }, {
         type: "Videos",
         name: "Integrating Smart Home Devices with the Google Assistant",

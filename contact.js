@@ -1,6 +1,6 @@
 var contact = [
     {
-        link: "mailto:nickfelker@gmail.com",
+        link: "mailto:nickfelker+nickswebsite@gmail.com",
         type: "E-Mail",
         icon: "icons/email.svg"
     }, {
