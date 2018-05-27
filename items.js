@@ -163,6 +163,27 @@ me = [
         date: "June 2013"
     }, {
         type: "Events",
+        name: "Google I/O",
+        location: "Mountain View, California",
+        date: "May 9 2018",
+        specificDate: "May 9",
+        contribution: "Gave talk at"
+    }, {
+        type: "Events",
+        name: "GDG San Francisco",
+        location: "Mountain View, California",
+        date: "May 2 2018",
+        specificDate: "May 2",
+        contribution: "Gave talk at"
+    }, {
+        type: "Events",
+        name: "SJHacks",
+        location: "San Jose, California",
+        date: "April 28 2018",
+        specificDate: "April 28",
+        contribution: "Judged at"
+    }, {
+        type: "Events",
         name: "International Women's Day",
         location: "Sunnyvale, California",
         date: "March 3 2018",
@@ -424,6 +445,12 @@ me = [
         linkText: READ_FULL_TEXT,
         link: "https://www.researchgate.net/publication/315063307_Building_MemSat_A_CubeSat_for_Testing_Resistive_Memory",
         date: "March 15 2017",
+    }, {
+        type: "Videos",
+        name: "Best Practices for Testing Your Actions",
+        date: "May 9 2018",
+        link: "https://youtu.be/eD4x4gj4u2Y",
+        linkText: WATCH_VIDEO 
     }, {
         type: "Videos",
         name: "Introduction to Custom Device Actions for the Google Assistant SDK",
