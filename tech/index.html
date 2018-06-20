@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <!-- TODO Favicon -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- TODO SEO -->
+        <title>Nick Felker</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link href="../css/reset.css" rel="stylesheet">
+        <link href="../css/style.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="../scripts/main.js"></script>
+        <script src="../scripts/modernizr.js"></script>
+
+        <style>
+            .cd-timeline-img > img {
+                width: 100%;
+                height: 100%;
+                left: 0px;
+                top: 0px;
+                margin: 0;
+                border-radius: 100%;
+            }
+            .cd-source-code {
+                margin-right: 24px;
+                margin-left: 24px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <img src='https://lh3.googleusercontent.com/in92lQWqKxynxZtQPAYG4OL1KjjWCy4r3m-7OrxafQviMPNwGHekgcw2CUzd5bMUgg=s288-c-rw' class='profile' />
+            <h1>Felker Tech</h1>
+            <table>
+                <tr>
+                    <td><h2>Quality</h2></td>
+                    <td><h2>&mdash;</h2></td>
+                    <td><h2>Engineering</h2></td>
+                    <td><h2>&mdash;</h2></td>
+                    <td><h2>Functionality</h2></td>
+                </tr>
+            </table>
+            <ul id='links'></ul>
+        </header>
+        <section style='text-align:center'>
+            <p>These are all apps that can be downloaded from Google Play.</p>
+        </section>
+        <h1 id='view_x_items'></h1>
+        <section id='cd-timeline' class='cd-container'>
+        </section>
+        <footer>
+            Website format based on <a href='https://codyhouse.co/gem/vertical-timeline/'>Vertical Timeline from CodyHouse</a>.
+            <br>
+            Icons sourced from <a href='https://materialdesignicons.com/'>Material Design Icons</a>
+        </footer>
+        <script>
+            // Generate HTML
+            const apps = [{
+                name: 'Tv App Repo',
+                description: 'Generates shortcuts for non-Leanback apps',
+                image: 'https://github.com/ITVlab/TvAppRepo/blob/master/promo/graphics/icon.png?raw=true',
+                link: 'https://play.google.com/store/apps/details?id=news.androidtv.tvapprepo.playstore',
+                github: 'https://github.com/itvlab/tvapprepo'
+            }, {
+                name: 'Cumulus Tv',
+                description: 'Live streams in Live Channels',
+                image: 'https://github.com/Fleker/CumulusTV/blob/master/store/app_icon.png?raw=true',
+                link: 'https://play.google.com/store/apps/details?id=com.felkertech.n.cumulustv',
+                github: 'https://github.com/fleker/cumulustv'
+            }, {
+                name: 'More apps',
+                description: 'View all apps on the Google Play Store',
+                image: 'https://lh3.googleusercontent.com/in92lQWqKxynxZtQPAYG4OL1KjjWCy4r3m-7OrxafQviMPNwGHekgcw2CUzd5bMUgg=s288-c-rw',
+                link: 'https://play.google.com/store/apps/dev?id=7137946119811783872&hl=en_US'
+            }];
+
+            let content = '';
+            for (i = 0; i < apps.length; i++) {
+                const a = apps[i];
+                content += `<div class="cd-timeline-block">
+                <div class="cd-timeline-img cd-picture" style="background-color: #4CAF50">
+                    <img src="${a.image}" alt="${a.name}">
+                </div>
+                <div class="cd-timeline-content">
+                    <h2>${a.name}</h2>
+                    <p>${a.description}</p>
+                    <a href="${a.link}" target="_blank" class="cd-read-more">Open</a>&emsp;
+                    ${a.github ? `<a href="${a.github}" target="_blank" class="cd-read-more cd-source-code">Source</a>` : ``}
+                    <span class="cd-date"></span>
+                </div>
+            </div>`;
+            }
+            document.querySelector('#cd-timeline').innerHTML = content;
+            document.getElementById('view_x_items').innerHTML = `${apps.length} items`; 
+        </script>
+    </body>
+</html>
