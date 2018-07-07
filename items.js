@@ -33,6 +33,18 @@ me = [
         date: "February 2017"
     }, {
         type: "Articles",
+        name: "Build a smart home service for the Actions on Google Client Library v2",
+        link: "https://medium.com/google-developers/build-a-smart-home-service-for-the-actions-on-google-client-library-v2-464517b90ad5",
+        linkText: "Read on Medium",
+        date: "June 21 2018"
+    }, {
+        type: "Articles",
+        name: "How to connect Stackdriver to your smart home server for error logging",
+        link: "https://medium.com/google-developers/how-to-connect-stackdriver-to-your-smart-home-server-for-error-logging-8a7a477241c2",
+        linkText: "Read on Medium",
+        date: "June 13 2018"
+    }, {
+        type: "Articles",
         name: "Adding TV Channels to Your App With the TIF Companion Library",
         link: "https://android-developers.googleblog.com/2016/11/adding-tv-channels-to-your-app-with-the-tif-companion-library.html",
         linkText: "Read at Android Developers Blog",
@@ -163,6 +175,13 @@ me = [
         date: "June 2013"
     }, {
         type: "Events",
+        name: "Google Cloud Faculty Institute",
+        location: "Sunnyvale, California",
+        date: "June 20 2018",
+        specificDate: "June 20",
+        contribution: "Facilitated working group at"
+    }, {
+        type: "Events",
         name: "Google I/O",
         location: "Mountain View, California",
         date: "May 9 2018",
@@ -262,6 +281,13 @@ me = [
         location: "Rowan University",
         specificDate: "March 12-13",
         date: "March 2016"
+    }, {
+        type: "News",
+        name: "Hands-on with TV App Repo: Create a shortcut for any non-Leanback app on your Android TV",
+        publication: "Android Police",
+        link: "https://www.androidpolice.com/2018/06/15/hands-tv-app-repo-create-shortcut-non-leanback-app-android-tv/",
+        linkText: READ_ARTICLE,
+        date: "June 15 2018"
     }, {
         type: "News",
         name: "What makes Glassboro High School a great start for future greatness",
