@@ -175,6 +175,13 @@ me = [
         date: "June 2013"
     }, {
         type: "Events",
+        name: "Voice Tech Toronto",
+        location: "Toronto, Ontario",
+        date: "July 12 2018",
+        specificDate: "July 12",
+        contribution: "Hosted workshop at"
+    }, {
+        type: "Events",
         name: "Google Cloud Faculty Institute",
         location: "Sunnyvale, California",
         date: "June 20 2018",
