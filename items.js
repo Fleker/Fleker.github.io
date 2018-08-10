@@ -33,6 +33,12 @@ me = [
         date: "February 2017"
     }, {
         type: "Articles",
+        name: "Smart Signs & Android Things: A case study",
+        link: "https://medium.com/@fleker/smart-signs-android-things-a-case-study-ba2bcfbc4d1b",
+        linkText: "Read on Medium",
+        date: "August 9 2018"
+    }, {
+        type: "Articles",
         name: "Build a smart home service for the Actions on Google Client Library v2",
         link: "https://medium.com/google-developers/build-a-smart-home-service-for-the-actions-on-google-client-library-v2-464517b90ad5",
         linkText: "Read on Medium",
@@ -143,13 +149,13 @@ me = [
     },{
         type: "Employment",
         name: "Google",
-        position: "Developer Relations Intern, Android TV & IoT",
+        position: "Developer Relations Intern - Android TV & IoT",
         ended: "August 2016",
         date: "May 20 2016"
     }, {
         type: "Employment",
         name: "Rowan University",
-        position: "Web Development for College of Science and Math & College of Engineering",
+        position: "Web Developer - College of Science and Math & College of Engineering",
         ended: "May 2017",
         date: "August 2015"
     }, {
