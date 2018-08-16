@@ -33,6 +33,12 @@ me = [
         date: "February 2017"
     }, {
         type: "Articles",
+        name: "Creating immersive soundscapes with SSML and Actions on Google",
+        link: "https://medium.com/google-developers/creating-immersive-soundscapes-with-ssml-and-actions-on-google-8724376ee6a6",
+        linkText: "Read on Medium",
+        date: "August 14 2018"
+    }, {
+        type: "Articles",
         name: "Smart Signs & Android Things: A case study",
         link: "https://medium.com/@fleker/smart-signs-android-things-a-case-study-ba2bcfbc4d1b",
         linkText: "Read on Medium",
