@@ -187,6 +187,30 @@ me = [
         date: "June 2013"
     }, {
         type: "Events",
+        name: "PennApps",
+        location: "Philadelphia, Pennsylvania",
+        date: "September 9 2018",
+        specificDate: "Sept 7-9",
+        contribution: "Sponsored",
+        link: "https://www.meetup.com/google-developer-group-san-francisco/events/253443785/"
+    }, {
+        type: "Events",
+        name: "Code for Philly & Actions on Google",
+        location: "Philadelphia, Pennsylvania",
+        date: "September 5 2018",
+        specificDate: "September 5",
+        contribution: "Hosted",
+        link: "https://www.meetup.com/Code-for-Philly/events/254207309/"
+    },  {
+        type: "Events",
+        name: "Introduction to Android Things",
+        location: "Nashville, Tennessee",
+        date: "August 28 2018",
+        specificDate: "August 28",
+        contribution: "Hosted",
+        link: "https://www.meetup.com/NashvilleMDUG/events/dllflmyxlblc/"
+    }, {
+        type: "Events",
         name: "Build Actions For Your Community",
         location: "San Francisco, California",
         date: "August 23 2018",
@@ -498,6 +522,12 @@ me = [
         linkText: READ_FULL_TEXT,
         link: "https://www.researchgate.net/publication/315063307_Building_MemSat_A_CubeSat_for_Testing_Resistive_Memory",
         date: "March 15 2017",
+    }, {
+        type: "Videos",
+        name: "Implementing Report State for Google Assistant Smatr Home Devices",
+        date: "September 6 2018",
+        link: "https://youtu.be/wmSTPvdzHGU",
+        linkText: WATCH_VIDEO 
     }, {
         type: "Videos",
         name: "Best Practices for Testing Your Actions",
