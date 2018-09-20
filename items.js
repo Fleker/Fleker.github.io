@@ -192,7 +192,8 @@ me = [
         date: "September 9 2018",
         specificDate: "Sept 7-9",
         contribution: "Sponsored",
-        link: "https://www.meetup.com/google-developer-group-san-francisco/events/253443785/"
+        link: "http://2018f.pennapps.com/",
+        linkText: LEARN_MORE,
     }, {
         type: "Events",
         name: "Code for Philly & Actions on Google",
@@ -200,7 +201,8 @@ me = [
         date: "September 5 2018",
         specificDate: "September 5",
         contribution: "Hosted",
-        link: "https://www.meetup.com/Code-for-Philly/events/254207309/"
+        link: "https://www.meetup.com/Code-for-Philly/events/254207309/",
+        linkText: LEARN_MORE,
     },  {
         type: "Events",
         name: "Introduction to Android Things",
@@ -208,7 +210,8 @@ me = [
         date: "August 28 2018",
         specificDate: "August 28",
         contribution: "Hosted",
-        link: "https://www.meetup.com/NashvilleMDUG/events/dllflmyxlblc/"
+        link: "https://www.meetup.com/NashvilleMDUG/events/dllflmyxlblc/",
+        linkText: LEARN_MORE,
     }, {
         type: "Events",
         name: "Build Actions For Your Community",
@@ -216,7 +219,8 @@ me = [
         date: "August 23 2018",
         specificDate: "August 23",
         contribution: "Co-hosted",
-        link: "https://www.meetup.com/google-developer-group-san-francisco/events/253443785/"
+        link: "https://www.meetup.com/google-developer-group-san-francisco/events/253443785/",
+        linkText: LEARN_MORE,
     }, {
         type: "Events",
         name: "Voice Tech Toronto",
