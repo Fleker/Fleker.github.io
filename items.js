@@ -33,6 +33,18 @@ me = [
         date: "February 2017"
     }, {
         type: "Articles",
+        name: "Extending your smart home Actions with toggles and modes",
+        link: "https://medium.com/google-developers/extending-your-smart-home-actions-with-toggles-and-modes-4d096729f257",
+        linkText: "Read on Medium",
+        date: "November 27 2018",
+    }, {
+        type: "Articles",
+        name: "Implementing Report State for your smart home service",
+        link: "https://medium.com/google-developers/implementing-report-state-for-your-smart-home-service-d377ce9c1126",
+        linkText: "Read on Medium",
+        date: "October 2 2018"
+    }, {
+        type: "Articles",
         name: "Creating immersive soundscapes with SSML and Actions on Google",
         link: "https://medium.com/google-developers/creating-immersive-soundscapes-with-ssml-and-actions-on-google-8724376ee6a6",
         linkText: "Read on Medium",
@@ -187,12 +199,39 @@ me = [
         date: "June 2013"
     }, {
         type: "Events",
+        name: "AndroidTO DevFest",
+        location: "Toronto, Canada",
+        date: "November 6 2018",
+        specificDate: "Nov 6",
+        contribution: "Spoke at",
+        link: "http://androidto.com/",
+        linkText: LEARN_MORE
+    }, {
+        type: "Events",
+        name: "Intuit SmallBizHack",
+        location: "Mountain View, California",
+        date: "November 3 2018",
+        specificDate: "Nov 3-4",
+        contribution: "Sponsored",
+        link: "https://www.smallbizhack.com/",
+        linkText: LEARN_MORE
+    }, {
+        type: "Events",
         name: "PennApps",
         location: "Philadelphia, Pennsylvania",
         date: "September 9 2018",
         specificDate: "Sept 7-9",
         contribution: "Sponsored",
         link: "http://2018f.pennapps.com/",
+        linkText: LEARN_MORE,
+    }, {
+        type: "Events",
+        name: "Particle Spectra",
+        location: "San Francisco, California",
+        date: "October 3 2018",
+        specificDate: "Oct 3",
+        contribution: "Spoke at",
+        link: "https://spectra.particle.io/",
         linkText: LEARN_MORE,
     }, {
         type: "Events",
@@ -336,6 +375,13 @@ me = [
         location: "Rowan University",
         specificDate: "March 12-13",
         date: "March 2016"
+    }, {
+        type: "News",
+        name: "EE Journal Editors' Choices for World Maker Faire 2018",
+        publication: "EE Journal",
+        link: "https://www.eejournal.com/article/ee-journal-editors-choices-for-world-maker-faire-2018/",
+        linkText: READ_ARTICLE,
+        date: "September 25 2018",
     }, {
         type: "News",
         name: "Hands-on with TV App Repo: Create a shortcut for any non-Leanback app on your Android TV",
@@ -528,7 +574,13 @@ me = [
         date: "March 15 2017",
     }, {
         type: "Videos",
-        name: "Implementing Report State for Google Assistant Smatr Home Devices",
+        name: "Building Conversational Experiences with Actions on Google",
+        date: "November 6 2018",
+        link: "https://youtu.be/AIjgAtwdmGU",
+        linkText: WATCH_VIDEO,
+    }, {
+        type: "Videos",
+        name: "Implementing Report State for Google Assistant Smart Home Devices",
         date: "September 6 2018",
         link: "https://youtu.be/wmSTPvdzHGU",
         linkText: WATCH_VIDEO 
