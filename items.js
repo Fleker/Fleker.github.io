@@ -377,6 +377,13 @@ me = [
         date: "March 2016"
     }, {
         type: "News",
+        name: "AndroidTO 2018: Canada's Longest Running Android Conference",
+        publication: "XDA Developers",
+        link: "https://www.xda-developers.com/androidto-2018-conference/",
+        linkText: READ_ARTICLE,
+        date: "November 5 2018",
+    }, {
+        type: "News",
         name: "EE Journal Editors' Choices for World Maker Faire 2018",
         publication: "EE Journal",
         link: "https://www.eejournal.com/article/ee-journal-editors-choices-for-world-maker-faire-2018/",
