@@ -590,6 +590,12 @@ me = [
         date: "March 15 2017",
     }, {
         type: "Videos",
+        name: "YouTube Plays Smart Home",
+        date: "December 18 2018",
+        link: "https://youtu.be/ExTljyJWzGY",
+        linkText: WATCH_VIDEO
+    }, {
+        type: "Videos",
         name: "Building Conversational Experiences with Actions on Google",
         date: "November 6 2018",
         link: "https://youtu.be/AIjgAtwdmGU",
