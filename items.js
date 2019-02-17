@@ -464,6 +464,13 @@ me = [
     }, {
         type: "Patents",
         subtype: "Defensive Publication",
+        date: "January 18 2019",
+        name: "Challenge keyword generation for voice-based authentication",
+        link: "https://www.tdcommons.org/dpubs_series/1891/",
+        linkText: READ_FULL_TEXT
+    }, {
+        type: "Patents",
+        subtype: "Defensive Publication",
         date: "April 5 2018",
         name: "Voice input for authentication",
         link: "https://www.tdcommons.org/dpubs_series/1128/",
