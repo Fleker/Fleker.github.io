@@ -42,6 +42,12 @@ me = [
         date: "February 2017"
     }, {
         type: "Articles",
+        name: "Using Cloud Storage for Firebase for hosting rich media in your Actions",
+        link: "https://medium.com/google-developers/using-cloud-storage-for-firebase-for-hosting-rich-media-in-your-actions-a838977eb758",
+        linkText: "Read on Medium",
+        date: "February 5 2019",
+    }, {
+        type: "Articles",
         name: "Extending your smart home Actions with toggles and modes",
         link: "https://medium.com/google-developers/extending-your-smart-home-actions-with-toggles-and-modes-4d096729f257",
         linkText: "Read on Medium",
@@ -545,6 +551,27 @@ me = [
         name: "Automatic polls in group chat conversations",
         link: "http://www.tdcommons.org/dpubs_series/822/",
         linkText: READ_FULL_TEXT
+    }, {
+        type: "Projects",
+        name: "Typedoc Neo Theme",
+        description: "An improved, customizable Typedoc theme",
+        link: "https://github.com/google/typedoc-neo-theme",
+        linkText: LEARN_MORE,
+        date: "February 2019"
+    }, {
+        type: "Projects",
+        name: "Node.js Wiki",
+        description: "A wiki engine build on Firebase and Node.js",
+        link: "https://github.com/google/nodejs-wiki",
+        linkText: LEARN_MORE,
+        date: "August 2018"
+    }, {
+        type: "Projects",
+        name: "Git Presubmit Linter",
+        description: "A set of shell scripts for continuous integration (CI)",
+        link: "https://github.com/google/git-presubmit-linter",
+        linkText: LEARN_MORE,
+        date: "January 2018"
     }, {
         type: "Projects",
         name: "MemSat",
