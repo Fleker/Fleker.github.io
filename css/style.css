@@ -303,12 +303,12 @@ header img {
 .cd-timeline-content .cd-read-more {
   float: right;
   padding: .8em 1em;
-  background: #acb7c0;
+  background: #4CAF50;
   color: white;
   border-radius: 0.25em;
 }
 .no-touch .cd-timeline-content .cd-read-more:hover {
-  background-color: #bac4cb;
+  background-color: #3f8c42;
 }
 .cd-timeline-content .cd-date {
   float: left;
