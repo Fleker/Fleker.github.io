@@ -303,12 +303,12 @@ header img {
 .cd-timeline-content .cd-read-more {
   float: right;
   padding: .8em 1em;
-  background: #4CAF50;
+  background: #388e3c;
   color: white;
   border-radius: 0.25em;
 }
 .no-touch .cd-timeline-content .cd-read-more:hover {
-  background-color: #3f8c42;
+  background-color: #1b5e20;
 }
 .cd-timeline-content .cd-date {
   float: left;
@@ -555,9 +555,20 @@ footer {
     box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
 
-body {
-    color: 4CAF50;
-/*    background-color: #C8E6C9;*/
+li.filter, h2 {
+    color: #81C784;
+}
+
+li.filter:hover {
+  color: #dedede;
+}
+
+.cd-date, #view_x_items {
+  color: #2B732E;
+}
+
+.cd-timeline-content h3 {
+  color: #546e7a;
 }
 
 header table {

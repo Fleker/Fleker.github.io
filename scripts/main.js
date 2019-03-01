@@ -20,7 +20,7 @@ jQuery(document).ready(function($){
 
 	function showBlocks(blocks, offset) {
 		blocks.each(function(){
-            console.log($(this).offset().top, $(window).scrollTop()+window.innerHeight*offset);
+            // console.log($(this).offset().top, $(window).scrollTop()+window.innerHeight*offset);
 			( $(this).offset().top <= $(window).scrollTop()+window.innerHeight*offset && $(this).find('.cd-timeline-img').hasClass('is-hidden') ) && $(this).find('.cd-timeline-img, .cd-timeline-content').removeClass('is-hidden').addClass('bounce-in');
 		});
 	}

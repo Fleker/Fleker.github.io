@@ -6,9 +6,11 @@
  */
 
 /* Some Constants */
-const LEARN_MORE = "Learn More";
 const READ_FULL_TEXT = "Read Full Text";
 const VIEW_DEVPOST = "View DevPost Submission";
+const VIEW_GITHUB = "Source on GitHub";
+const VIEW_EVENT = "View Event Page";
+const VIEW_WEBSITE = "Visit Website";
 const READ_ARTICLE = "Read Article";
 const WATCH_VIDEO = "Watch the Video";
 
@@ -220,7 +222,7 @@ me = [
         specificDate: "Nov 6",
         contribution: "Spoke at",
         link: "http://androidto.com/",
-        linkText: LEARN_MORE
+        linkText: VIEW_EVENT
     }, {
         type: "Events",
         name: "Intuit SmallBizHack",
@@ -229,7 +231,7 @@ me = [
         specificDate: "Nov 3-4",
         contribution: "Sponsored",
         link: "https://www.smallbizhack.com/",
-        linkText: LEARN_MORE
+        linkText: VIEW_EVENT
     }, {
         type: "Events",
         name: "PennApps",
@@ -238,7 +240,7 @@ me = [
         specificDate: "Sept 7-9",
         contribution: "Sponsored",
         link: "http://2018f.pennapps.com/",
-        linkText: LEARN_MORE,
+        linkText: VIEW_EVENT,
     }, {
         type: "Events",
         name: "Particle Spectra",
@@ -247,7 +249,7 @@ me = [
         specificDate: "Oct 3",
         contribution: "Spoke at",
         link: "https://spectra.particle.io/",
-        linkText: LEARN_MORE,
+        linkText: VIEW_EVENT,
     }, {
         type: "Events",
         name: "Code for Philly & Actions on Google",
@@ -256,7 +258,7 @@ me = [
         specificDate: "September 5",
         contribution: "Hosted",
         link: "https://www.meetup.com/Code-for-Philly/events/254207309/",
-        linkText: LEARN_MORE,
+        linkText: VIEW_EVENT,
     },  {
         type: "Events",
         name: "Introduction to Android Things",
@@ -265,7 +267,7 @@ me = [
         specificDate: "August 28",
         contribution: "Hosted",
         link: "https://www.meetup.com/NashvilleMDUG/events/dllflmyxlblc/",
-        linkText: LEARN_MORE,
+        linkText: VIEW_EVENT,
     }, {
         type: "Events",
         name: "Build Actions For Your Community",
@@ -274,7 +276,7 @@ me = [
         specificDate: "August 23",
         contribution: "Co-hosted",
         link: "https://www.meetup.com/google-developer-group-san-francisco/events/253443785/",
-        linkText: LEARN_MORE,
+        linkText: VIEW_EVENT,
     }, {
         type: "Events",
         name: "Voice Tech Toronto",
@@ -343,7 +345,7 @@ me = [
         name: "Intuit Quickbooks Small Business Hackathon",
         location: "Intuit HQ Mountain View",
         link: "https://www.smallbizhack.com/",
-        linkText: LEARN_MORE,
+        linkText: VIEW_EVENT,
         date: "November 11 2017",
         specificDate: 'November 11-12',
         contribution: "Judged at"
@@ -352,7 +354,7 @@ me = [
         name: "Dashbot Hackathon",
         location: "San Francisco",
         link: "https://www.meetup.com/Dashbot-Bot-Meetup-San-Francisco-New-Technology/events/243582992/",
-        linkText: LEARN_MORE,
+        linkText: VIEW_EVENT,
         date: "November 4 2017",
         specificDate: 'November 4',
         contribution: "Judged at"
@@ -361,7 +363,7 @@ me = [
         name: "PennApps XVI",
         location: "Philadelphia",
         link: "http://2017f.pennapps.com/",
-        linkText: LEARN_MORE,
+        linkText: VIEW_EVENT,
         date: "September 8 2017",
         specificDate: "September 8-10",
         contribution: "Judged at"
@@ -556,35 +558,35 @@ me = [
         name: "Typedoc Neo Theme",
         description: "An improved, customizable Typedoc theme",
         link: "https://github.com/google/typedoc-neo-theme",
-        linkText: LEARN_MORE,
+        linkText: VIEW_GITHUB,
         date: "February 2019"
     }, {
         type: "Projects",
         name: "Node.js Wiki",
         description: "A wiki engine build on Firebase and Node.js",
         link: "https://github.com/google/nodejs-wiki",
-        linkText: LEARN_MORE,
+        linkText: VIEW_GITHUB,
         date: "August 2018"
     }, {
         type: "Projects",
         name: "Git Presubmit Linter",
         description: "A set of shell scripts for continuous integration (CI)",
         link: "https://github.com/google/git-presubmit-linter",
-        linkText: LEARN_MORE,
+        linkText: VIEW_GITHUB,
         date: "January 2018"
     }, {
         type: "Projects",
         name: "Hackathon Wristbands",
         description: "An easy way for hackathons to incorporate live data from attendees",
         link: "https://github.com/Fleker/hackathon-wristbands-website",
-        linkText: LEARN_MORE,
+        linkText: VIEW_GITHUB,
         date: "July 2017"
     }, {
         type: "Projects",
         name: "MemSat",
         description: "Acted as project manager for Command & Data Handling subsystem",
         link: "http://memsat.space",
-        linkText: LEARN_MORE,
+        linkText: VIEW_WEBSITE,
         date: "September 2016"
     }, {
         type: "Projects",

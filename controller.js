@@ -66,7 +66,7 @@ function useImage(type) {
 }
 
 function getUrl(url, text) {
-    return `<a href='${url}' target='_blank' class='cd-read-more'>${text}</a>`;
+    return `<a href='${url}' target='_blank' class='cd-read-more' rel='noopener'>${text}</a>`;
 }
 
 function populateTimeline(filter) {
