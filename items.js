@@ -574,6 +574,13 @@ me = [
         date: "January 2018"
     }, {
         type: "Projects",
+        name: "Hackathon Wristbands",
+        description: "An easy way for hackathons to incorporate live data from attendees",
+        link: "https://github.com/Fleker/hackathon-wristbands-website",
+        linkText: LEARN_MORE,
+        date: "July 2017"
+    }, {
+        type: "Projects",
         name: "MemSat",
         description: "Acted as project manager for Command & Data Handling subsystem",
         link: "http://memsat.space",
@@ -608,6 +615,13 @@ me = [
         name: "Google Glass Medical Application",
         description: "Worked on a Glass app for use in the medical industry",
         date: "January 2014"
+    }, {
+        type: "Publications",
+        name: "MemOS for Performance Analysis of Future Memristive Memory-Based Computer Architecture and Simulation",
+        publishedAt: "Journal of Operating Systems Development & Trends",
+        link: "http://computers.stmjournals.com/index.php?journal=JoOSD&page=article&op=view&path%5B%5D=1765",
+        linkText: READ_FULL_TEXT,
+        date: "August 2018"
     }, {
         type: "Publications",
         name: "Using Wearable Sensors to Collect User Data at an Event as a Live API and for Logistical Planning",
