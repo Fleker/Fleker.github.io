@@ -27,10 +27,21 @@ a {
   background-color: green;
   padding-left: 4px;
   padding-right: 4px;
+  transition: all 0.3s;
 }
 
 a:hover {
   background-color: #81c784;
+}
+
+#contact-me a {
+  background: none;
+  transition: all 0.3s;
+}
+
+#contact-me a:hover {
+  border-bottom: solid 1px #388e3c;
+  background: #a5d6a7;
 }
 
 img {
@@ -562,6 +573,7 @@ footer {
 
 li.filter, h2 {
     color: #81C784;
+    transition: all 0.15s;
 }
 
 li.filter:hover {
@@ -573,7 +585,9 @@ li.filter:hover {
 }
 
 .cd-timeline-content h3 {
-  color: #546e7a;
+  color: #43a047;
+  margin-top: 7px;
+  margin-left: 7px;
 }
 
 header table {
