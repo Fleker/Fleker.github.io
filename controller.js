@@ -99,14 +99,14 @@ function populateTimeline(filter) {
                 }
             } else if (item.type == "Publications") {
                 output += `<h2>${item.name}</h2>`;
-                output += `<em>${item.publishedAt}</em>`;
+                output += `<h3>${item.publishedAt}</h3>`;
             } else if (item.type == "Hacks") {
                 output += `<h2>${item.name}</h2>`;
                 if (item.purpose !== undefined) {
                     output += `<h3>Built at ${item.purpose}</h3>`;
                 }
                 if (item.acolades !== undefined) {
-                    output += `<em>${item.acolades}</em>`;   
+                    output += `<h4>${item.acolades}</h4>`;   
                 }
             } else if (item.type == "Articles") {
                 output += `<h2>${item.name}</h2>`;
@@ -125,7 +125,7 @@ function populateTimeline(filter) {
             } else if (item.type == "Events") {
                 output += `<h2>${item.contribution || "Hosted"} ${item.name}</h2>`;
                 output += `<h3>${item.specificDate}</h3>`;
-                output += `<h3>${item.location}</h3>`;
+                output += `<h4>${item.location}</h4>`;
             } else if (item.type == "News") {
                 output += `<h2>${item.name}</h2>`;
                 output += `<h3>${item.publication}</h3>`;
