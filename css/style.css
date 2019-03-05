@@ -558,6 +558,7 @@ footer {
     margin-left: 16px;
     margin-bottom: 40px;
     text-align: center;
+    display: none;
 }
 
 #contact-me img {

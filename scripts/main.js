@@ -24,6 +24,8 @@ jQuery(document).ready(function($){
 			( $(this).offset().top <= $(window).scrollTop()+window.innerHeight*offset && $(this).find('.cd-timeline-img').hasClass('is-hidden') ) && $(this).find('.cd-timeline-img, .cd-timeline-content').removeClass('is-hidden').addClass('bounce-in');
 		});
 	}
+
+	$('#contact-me').style.display = 'block';
 });
 
 function rehide() {
