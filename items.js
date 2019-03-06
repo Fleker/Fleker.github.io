@@ -216,6 +216,15 @@ me = [
         date: "June 2013"
     }, {
         type: "Events",
+        name: "Women Tech Makers",
+        location: "New York City",
+        date: "March 2 2019",
+        contribution: "Assisted workshop at",
+        specificDate: "Mar 2",
+        link: "https://www.womentechmakers.com/iwd19",
+        linkText: VIEW_EVENT
+    }, {
+        type: "Events",
         name: "AndroidTO DevFest",
         location: "Toronto, Canada",
         date: "November 6 2018",
@@ -380,6 +389,14 @@ me = [
         location: "Rowan University",
         specificDate: "April 7-9",
         date: "April 2017"
+    }, {
+        type: "Events",
+        name: "ProfHacks 2K17",
+        location: "Rowan University",
+        specificDate: "Feb 4 2017",
+        date: "February 2017",
+        link: "https://profhacks17.devpost.com/",
+        linkText: VIEW_EVENT
     }, {
         type: "Events",
         name: "Student Activities Conference, 2014",
