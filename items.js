@@ -216,6 +216,15 @@ me = [
         date: "June 2013"
     }, {
         type: "Events",
+        name: "Women Tech Makers",
+        location: "Atlanat, GA",
+        date: "March 14 2019",
+        contribution: "Volunteered for Actions on Google workshop at",
+        specificDate: "Mar 14",
+        link: "https://www.womentechmakers.com/iwd19",
+        linkText: VIEW_EVENT
+    }, {
+        type: "Events",
         name: "ProfHacks 2019",
         location: "Glassboro, NJ",
         date: "March 9 2019",
@@ -235,7 +244,7 @@ me = [
         name: "Women Tech Makers",
         location: "New York City",
         date: "March 2 2019",
-        contribution: "Assisted workshop at",
+        contribution: "Volunteered for Actions on Google workshop at",
         specificDate: "Mar 2",
         link: "https://www.womentechmakers.com/iwd19",
         linkText: VIEW_EVENT
@@ -593,6 +602,13 @@ me = [
         name: "Automatic polls in group chat conversations",
         link: "http://www.tdcommons.org/dpubs_series/822/",
         linkText: READ_FULL_TEXT
+    }, {
+        type: "Projects",
+        name: "Cyanobyte",
+        description: "Codegen for hardware peripheral communication protocols",
+        link: "https://github.com/google/cyanobyte",
+        linkText: VIEW_GITHUB,
+        date: "March 2019",
     }, {
         type: "Projects",
         name: "Typedoc Neo Theme",
