@@ -216,6 +216,22 @@ me = [
         date: "June 2013"
     }, {
         type: "Events",
+        name: "ProfHacks 2019",
+        location: "Glassboro, NJ",
+        date: "March 9 2019",
+        contribution: "Mentored and judged at",
+        specificDate: "Mar 9",
+        link: "https://profhacks2019.devpost.com/",
+        linkText: VIEW_DEVPOST
+    }, {
+        type: "Events",
+        name: "Rowan WIE",
+        location: "Glassboro, NJ",
+        date: "March 7 2019",
+        contribution: "Hosted workshop for",
+        specificDate: "Mar 7",
+    }, {
+        type: "Events",
         name: "Women Tech Makers",
         location: "New York City",
         date: "March 2 2019",
@@ -409,6 +425,13 @@ me = [
         location: "Rowan University",
         specificDate: "March 12-13",
         date: "March 2016"
+    }, {
+        type: "News",
+        name: "National Cereal Day: Pick your favorite and just add milk",
+        publication: "Trib Live",
+        link: "https://triblive.com/lifestyles/more-lifestyles/national-cereal-day-pick-your-favorite-and-just-add-milk/",
+        linkText: READ_ARTICLE,
+        date: "March 7 2019",
     }, {
         type: "News",
         name: "AndroidTO 2018: Canada's Longest Running Android Conference",

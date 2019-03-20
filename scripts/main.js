@@ -25,7 +25,7 @@ jQuery(document).ready(function($){
 		});
 	}
 
-	$('#contact-me').style.display = 'block';
+	$('#contact-me').css('display', 'block');
 });
 
 function rehide() {
