@@ -1,0 +1,65 @@
+[
+    {
+        "type": "Articles",
+        "name": "Using Cloud Storage for Firebase for hosting rich media in your Actions",
+        "link": "https://medium.com/google-developers/using-cloud-storage-for-firebase-for-hosting-rich-media-in-your-actions-a838977eb758",
+        "linkText": "Read on Medium",
+        "date": "February 5 2019"
+    }, 
+    {
+        "type": "Articles",
+        "name": "Extending your smart home Actions with toggles and modes",
+        "link": "https://medium.com/google-developers/extending-your-smart-home-actions-with-toggles-and-modes-4d096729f257",
+        "linkText": "Read on Medium",
+        "date": "November 27 2018"
+    }, 
+    {
+        "type": "Articles",
+        "name": "Implementing Report State for your smart home service",
+        "link": "https://medium.com/google-developers/implementing-report-state-for-your-smart-home-service-d377ce9c1126",
+        "linkText": "Read on Medium",
+        "date": "October 2 2018"
+    },
+    {
+        "type": "Articles",
+        "name": "Creating immersive soundscapes with SSML and Actions on Google",
+        "link": "https://medium.com/google-developers/creating-immersive-soundscapes-with-ssml-and-actions-on-google-8724376ee6a6",
+        "linkText": "Read on Medium",
+        "date": "August 14 2018"
+    }, 
+    {
+        "type": "Articles",
+        "name": "Smart Signs & Android Things: A case study",
+        "link": "https://medium.com/@fleker/smart-signs-android-things-a-case-study-ba2bcfbc4d1b",
+        "linkText": "Read on Medium",
+        "date": "August 9 2018"
+    }, 
+    {
+        "type": "Articles",
+        "name": "Build a smart home service for the Actions on Google Client Library v2",
+        "link": "https://medium.com/google-developers/build-a-smart-home-service-for-the-actions-on-google-client-library-v2-464517b90ad5",
+        "linkText": "Read on Medium",
+        "date": "June 21 2018"
+    }, 
+    {
+        "type": "Articles",
+        "name": "How to connect Stackdriver to your smart home server for error logging",
+        "link": "https://medium.com/google-developers/how-to-connect-stackdriver-to-your-smart-home-server-for-error-logging-8a7a477241c2",
+        "linkText": "Read on Medium",
+        "date": "June 13 2018"
+    }, 
+    {
+        "type": "Articles",
+        "name": "Adding TV Channels to Your App With the TIF Companion Library",
+        "link": "https://android-developers.googleblog.com/2016/11/adding-tv-channels-to-your-app-with-the-tif-companion-library.html",
+        "linkText": "Read at Android Developers Blog",
+        "date": "November 2016"
+    }, 
+    {
+        "type": "Articles",
+        "name": "Started writing for Android TV News",
+        "link": "http://androidtv.news",
+        "linkText": "Read at Android TV News",
+        "date": "September 2015"
+    }
+]
