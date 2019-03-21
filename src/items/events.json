@@ -198,13 +198,13 @@
         "name": "Student Activities Conference, 2017",
         "location": "Rowan University",
         "specificDate": "April 7-9",
-        "date": "April 2017"
+        "date": "April 7 2017"
     }, {
         "type": "Events",
         "name": "ProfHacks 2K17",
         "location": "Rowan University",
         "specificDate": "Feb 4 2017",
-        "date": "February 2017",
+        "date": "February 4 2017",
         "link": "https://profhacks17.devpost.com/",
         "linkText": "View Event Page"
     }, {
@@ -212,12 +212,12 @@
         "name": "Student Activities Conference, 2014",
         "location": "Rowan University",
         "specificDate": "April 4-6",
-        "date": "April 2014"
+        "date": "April 4 2014"
     }, {
         "type": "Events",
         "name": "ProfHacks 2K16",
         "location": "Rowan University",
         "specificDate": "March 12-13",
-        "date": "March 2016"
+        "date": "March 12 2016"
     }
 ]

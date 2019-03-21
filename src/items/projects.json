@@ -12,35 +12,35 @@
         "description": "An improved, customizable Typedoc theme",
         "link": "https://github.com/google/typedoc-neo-theme",
         "linkText": "View on GitHub",
-        "date": "February 2019"
+        "date": "February 15 2019"
     }, {
         "type": "Projects",
         "name": "Node.js Wiki",
         "description": "A wiki engine build on Firebase and Node.js",
         "link": "https://github.com/google/nodejs-wiki",
         "linkText": "View on GitHub",
-        "date": "August 2018"
+        "date": "August 15 2018"
     }, {
         "type": "Projects",
         "name": "Git Presubmit Linter",
         "description": "A set of shell scripts for continuous integration (CI)",
         "link": "https://github.com/google/git-presubmit-linter",
         "linkText": "View on GitHub",
-        "date": "January 2018"
+        "date": "January 15 2018"
     }, {
         "type": "Projects",
         "name": "Hackathon Wristbands",
         "description": "An easy way for hackathons to incorporate live data from attendees",
         "link": "https://github.com/Fleker/hackathon-wristbands-website",
         "linkText": "View on GitHub",
-        "date": "July 2017"
+        "date": "July 20 2017"
     }, {
         "type": "Projects",
         "name": "MemSat",
         "description": "Acted as project manager for Command & Data Handling subsystem",
         "link": "http://memsat.space",
         "linkText": "Visit website",
-        "date": "September 2016"
+        "date": "September 3 2016"
     }, {
         "type": "Projects",
         "name": "Laser Harp",
@@ -59,16 +59,16 @@
         "description": "Issued software updates to start-up Android app",
         "link": "http://culturecloudapp.com/",
         "linkText": "Visit App",
-        "date": "January 2016"
+        "date": "January 22 2016"
     }, {
         "type": "Projects",
         "name": "Automatic Pothole Detection",
         "description": "Develops software to allow for DoT detection of potholes",
-        "date": "September 2015"
+        "date": "September 3 2015"
     }, {
         "type": "Projects",
         "name": "Google Glass Medical Application",
         "description": "Worked on a Glass app for use in the medical industry",
-        "date": "January 2014"
+        "date": "January 26 2014"
     }
 ]
