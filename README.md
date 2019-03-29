@@ -8,3 +8,10 @@ yarn
 yarn serve # or yarn build
 ```
 
+## Publish changes
+```
+yarn clean:build
+yarn build
+# git add, commit, push
+```
+

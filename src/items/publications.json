@@ -20,5 +20,12 @@
         "linkText": "Read full text",
         "link": "https://www.researchgate.net/publication/315063307_Building_MemSat_A_CubeSat_for_Testing_Resistive_Memory",
         "date": "March 15 2017"
+    }, {
+        "type": "Publications",
+        "name": "Development of Voice Commands in Digital Signage for Improved Indoor Navigation Using Google Assistant SDK",
+        "publishedAt": "Sensor Applications Syposium 2019, Sophia Antipolis, France",
+        "link": "https://edas.info/p24978",
+        "linkText": "View event schedule",
+        "date": "March 11 2019"
     }
 ]
