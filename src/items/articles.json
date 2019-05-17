@@ -61,5 +61,19 @@
         "link": "http://androidtv.news",
         "linkText": "Read at Android TV News",
         "date": "September 1 2015"
+    },
+    {
+        "type": "Articles",
+        "name": "Improving Actions on Google reference documentation with the new Typedoc Neo theme",
+        "link": "https://medium.com/google-developers/improving-actions-on-google-reference-documentation-with-the-new-typedoc-neo-theme-7a9d58b52c4a",
+        "linkText": "Read on Medium",
+        "date": "April 8 2019"
+    },
+    {
+        "type": "Articles",
+        "name": "Authenticating smart home Actions for the Google Assistant with Auth0",
+        "link": "https://medium.com/google-developers/authenticating-smart-home-actions-for-the-google-assistant-with-auth0-b6fda3d2ee3d",
+        "linkText": "Read on Medium",
+        "date": "April 30 2019"
     }
 ]
