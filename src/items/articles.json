@@ -75,5 +75,12 @@
         "link": "https://medium.com/google-developers/authenticating-smart-home-actions-for-the-google-assistant-with-auth0-b6fda3d2ee3d",
         "linkText": "Read on Medium",
         "date": "April 30 2019"
+    },
+    {
+        "type": "Articles",
+        "name": "Using Cloud Run as a webhook for Actions on Google",
+        "link": "https://medium.com/google-developers/using-cloud-run-as-a-webhook-for-actions-on-google-792b58694651",
+        "linkText": "Read on Medium",
+        "date": "May 21 2019"
     }
 ]
