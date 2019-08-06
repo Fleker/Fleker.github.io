@@ -225,5 +225,49 @@
         "location": "Mountain View, California",
         "specificDate": "May 7-9",
         "date": "May 7 2019"
+    },
+    {
+        "type": "Events",
+        "name": "Code Next hackathon",
+        "location": "New York City",
+        "specificDate": "June 28-29",
+        "date": "June 28 2019",
+        "contribution": "Volunteered at"
+    },
+    {
+        "type": "Events",
+        "name": "VOICE Summit",
+        "location": "Newark, New Jersey",
+        "specificDate": "July 22-25",
+        "date": "July 22 2019",
+        "contribution": "Hosted workshop at"
+    },
+    {
+        "type": "Events",
+        "name": "NYC Voice Game Meetup",
+        "location": "New York City",
+        "specificDate": "July 26",
+        "date": "July 26 2019",
+        "contribution": "Ran",
+        "link": "https://www.meetup.com/gdgnyc/events/263151909/",
+        "linkText": "View Event Page"
+    },
+    {
+        "type": "Events",
+        "name": "Smart Home Partner Summit",
+        "location": "Mountain View, California",
+        "specificDate": "July 29-August 2",
+        "date": "July 29 2019",
+        "contribution": "Assisted partners at"
+    },
+    {
+        "type": "Events",
+        "name": "GDG NYC August Meetup",
+        "location": "New York City",
+        "specificDate": "August 14",
+        "date": "August 14 2019",
+        "contribution": "Gave talk at",
+        "link": "https://www.meetup.com/gdgnyc/events/263099523/",
+        "linkText": "View Event Page"
     }
 ]

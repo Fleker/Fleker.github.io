@@ -64,6 +64,13 @@
     },
     {
         "type": "Articles",
+        "name": "Started 'Worldbuilding Pokemon' series for Gen 8",
+        "link": "https://medium.com/@fleker/worldbuilding-pokemon-a-first-look-at-galar-b74c1900b53",
+        "linkText": "Read on Medium",
+        "date": "February 28 2019"
+    },
+    {
+        "type": "Articles",
         "name": "Improving Actions on Google reference documentation with the new Typedoc Neo theme",
         "link": "https://medium.com/google-developers/improving-actions-on-google-reference-documentation-with-the-new-typedoc-neo-theme-7a9d58b52c4a",
         "linkText": "Read on Medium",
@@ -82,5 +89,19 @@
         "link": "https://medium.com/google-developers/using-cloud-run-as-a-webhook-for-actions-on-google-792b58694651",
         "linkText": "Read on Medium",
         "date": "May 21 2019"
+    },
+    {
+        "type": "Articles",
+        "name": "Best Practices for connecting IoT devices to the Google Assistant",
+        "link": "https://medium.com/google-developers/best-practices-for-connecting-iot-devices-to-the-google-assistant-9e5b7f5cc95a",
+        "linkText": "Read on Medium",
+        "date": "June 27 2019"
+    },
+    {
+        "type": "Articles",
+        "name": "Bringing Tabletop Audio to Actions on Google through media responses",
+        "link": "https://medium.com/google-developers/bringing-tabletop-audio-to-actions-on-google-through-media-responses-a48bbcd9a38",
+        "linkText": "Read on Medium",
+        "date": "August 5 2019"
     }
 ]

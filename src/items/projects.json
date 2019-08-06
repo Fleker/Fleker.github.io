@@ -70,5 +70,13 @@
         "name": "Google Glass Medical Application",
         "description": "Worked on a Glass app for use in the medical industry",
         "date": "January 26 2014"
+    },
+    {
+        "type": "Projects",
+        "name": "Tabletop Audio Action",
+        "description": "Access music from Tabletop Audio on Google Assistant",
+        "date": "July 25 2019",
+        "link": "https://github.com/google/tabletopaudio-action",
+        "linkText": "View on GitHub"
     }
 ]
