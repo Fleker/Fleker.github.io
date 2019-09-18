@@ -103,5 +103,19 @@
         "link": "https://medium.com/google-developers/bringing-tabletop-audio-to-actions-on-google-through-media-responses-a48bbcd9a38",
         "linkText": "Read on Medium",
         "date": "August 5 2019"
+    },
+    {
+        "type": "Articles",
+        "name": "Training the next generation of voice developers through hackathons and MLH Localhost",
+        "link": "https://medium.com/google-developers/training-the-next-generation-of-voice-developers-through-hackathons-and-mlh-localhost-65707051b89f",
+        "linkText": "Read on Medium",
+        "date": "August 21 2019"
+    },
+    {
+        "type": "Articles",
+        "name": "Started writing features on PokeJungle",
+        "link": "https://pokejungle.net/author/nickf/",
+        "linkText": "Read articles",
+        "date": "September 9 2019"
     }
 ]

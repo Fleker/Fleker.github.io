@@ -1,0 +1,107 @@
+[
+    {
+        "type": "Education",
+        "name": "Girls Who Code",
+        "date": "July 1 2019"
+    },
+    {
+        "type": "Education",
+        "name": "Citizen Schools, New York",
+        "date": "July 1 2019"
+    },
+    {
+        "type": "Social",
+        "name": "World Food Program, USA",
+        "date": "July 1 2019"
+    },
+    {
+        "type": "Medical",
+        "name": "The Against Malaria Foundation",
+        "date": "July 1 2019"
+    },
+    {
+        "type": "Medical",
+        "name": "American Heart Association",
+        "date": "July 1 2019"
+    },
+    {
+        "type": "Medical",
+        "name": "Children's Hospital of Philadelphia",
+        "date": "July 1 2019"
+    },
+    {
+        "type": "Medical",
+        "name": "St. Jude Children's Research Hospital",
+        "date": "July 1 2019"
+    },
+    {
+        "type": "Environment",
+        "name": "World Wildlife Fund Inc.",
+        "date": "July 1 2019"
+    },
+    {
+        "type": "Social",
+        "name": "National Alliance to End Homelessness",
+        "date": "July 1 2019"
+    },
+    {
+        "type": "Social",
+        "name": "Action Against Hunger USA",
+        "date": "July 1 2019"
+    },
+    {
+        "type": "Technology",
+        "name": "Cellular Agriculture Society",
+        "date": "July 1 2019"
+    },
+    {
+        "type": "Social",
+        "name": "Southern Poverty Law Center Inc.",
+        "date": "August 1 2019"
+    },
+    {
+        "type": "Medical",
+        "name": "Doctors Without Borders",
+        "date": "August 1 2019"
+    },
+    {
+        "type": "Social",
+        "name": "US Association for UNHCR (UN Refugee Agency)",
+        "date": "August 1 2019"
+    },
+    {
+        "type": "Technology",
+        "name": "Electronic Frontier Foundation Inc.",
+        "date": "August 1 2019"
+    },
+    {
+        "type": "Education",
+        "name": "Wikipedia",
+        "date": "August 1 2019"
+    },
+    {
+        "type": "Education",
+        "name": "Wikimedia Foundation",
+        "date": "August 1 2019"
+    },
+    {
+        "type": "Medical",
+        "name": "Medical Debt Resolution Inc.",
+        "date": "August 1 2019"
+    },
+    {
+        "type": "Culture",
+        "name": "WHYY Station",
+        "date": "February 1 2019"
+    },
+    {
+        "type": "Culture",
+        "name": "WNYC Station",
+        "date": "February 1 2019"
+    },
+    {
+        "type": "Environment",
+        "name": "Florida Oceanographic Society",
+        "date": "September 1 2019"
+    }
+]

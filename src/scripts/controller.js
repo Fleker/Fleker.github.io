@@ -30,15 +30,20 @@ function getDisplayDate(date) {
     return `${m[new Date(date).getMonth()]} ${(new Date(date).getYear() + 1900)}`;
 }
 
-function populateMenu(categories) {
-    var output = "<li class='filter' onclick='populateTimeline()'>All</li>";
+function populateMenu(categories, dataset = 'me') {
+    var output = `<li class='filter' onclick='populateTimeline(undefined, \"${dataset}\")'>
+        All
+    </li>`;
     // console.log(categories);
     var keys = alphaSort(categories);
     // console.log(keys);
     for (i in keys) {
-        output += `<li class='filter' onclick='populateTimeline(\"${keys[i]}\")'>${keys[i]}</li>`;
+        output += `<li class='filter' onclick='populateTimeline(\"${keys[i]}\", \"${dataset}\")'>
+            ${keys[i]}
+        </li>`;
     }
     output += "<li class='filter' onclick='contactDialog()'>Contact</li>";
+    // output += "<li class='filter' onclick='charityDialog()'>Charities</li>";
     document.getElementById('links').innerHTML = output;
 }
 
@@ -97,7 +102,15 @@ me.push(...require('../items/videos.json'))
 me.sort(dateSort);
 let baseHtml = ''
 
-function populateTimeline(filter) {
+const charities = require('../items/charities.json')
+charities.sort(dateSort)
+
+function populateTimeline(filter, dataset = me) {
+    if (dataset === "me") {
+        dataset = me
+    } else if (dataset === "charities") {
+        dataset = charities
+    }
     // Reset
     let count = 0;
 
@@ -111,7 +124,7 @@ function populateTimeline(filter) {
             });
             $('#cd-timeline').fadeIn(200);
             
-            count = me.length
+            count = dataset.length
             document.getElementById('view_x_items').innerHTML = count + ((count == 1) ? " Item" : " Items")
         }, 200);
         return
@@ -123,8 +136,8 @@ function populateTimeline(filter) {
     // Query categories
     categories = [];
     let output = ''
-    for (var index = 0; index < me.length; index++) {
-        var item = me[index];
+    for (var index = 0; index < dataset.length; index++) {
+        var item = dataset[index];
         categories[item.type] = item.type;
         
         if ((filter !== undefined && item.type == filter) || filter === undefined) {
@@ -192,7 +205,7 @@ function populateTimeline(filter) {
     }
 
     document.getElementById('cd-timeline').innerHTML = output;
-    if (!filter) {
+    if (!filter && dataset === 'me') {
         baseHtml = output
     }
     document.getElementById('view_x_items').innerHTML = count + ((count == 1) ? " Item" : " Items");
@@ -204,7 +217,14 @@ function populateTimeline(filter) {
 }
 window.populateTimeline = populateTimeline
 
-function contactDialog() {       
+function itemDialog() {
+    categories = populateTimeline();
+    console.log(categories)
+    populateMenu(categories);
+}
+window.itemDialog = itemDialog
+
+function contactDialog() {
     // Generate things
     const contact = require('../items/contact.json')
     var output = "<ul>";
@@ -228,9 +248,14 @@ function contactDialog() {
 }
 window.contactDialog = contactDialog
 
+function charityDialog() {
+    const categories = populateTimeline(undefined, charities)
+    populateMenu(categories, 'charities')
+}
+window.charityDialog = charityDialog
+
 window.onload = function() {
-    categories = populateTimeline();
-    populateMenu(categories);
+    itemDialog()
 };
 
 /* Extra jQuery stuff */
