@@ -103,5 +103,45 @@
         "type": "Environment",
         "name": "Florida Oceanographic Society",
         "date": "September 1 2019"
+    },
+    {
+        "type": "Technology",
+        "name": "IEEE Foundation Inc",
+        "date": "September 15 2019"
+    },
+    {
+        "type": "Social",
+        "name": "Unicef USA",
+        "date": "September 15 2019"
+    },
+    {
+        "type": "Economic",
+        "name": "GiveDirectly",
+        "date": "September 15 2019"
+    },
+    {
+        "type": "Medical",
+        "name": "Zika Virus Disaster Relief",
+        "date": "September 15 2019"
+    },
+    {
+        "type": "Economic",
+        "name": "Kiva Microfunds",
+        "date": "September 15 2019"
+    },
+    {
+        "type": "Social",
+        "name": "City Harvest Inc",
+        "date": "September 15 2019"
+    },
+    {
+        "type": "Environment",
+        "name": "Monterey Bay Aquarium Foundation",
+        "date": "September 15 2019"
+    },
+    {
+        "type": "Social",
+        "name": "Habitat for Humanity Inc",
+        "date": "September 15 2019"
     }
 ]
