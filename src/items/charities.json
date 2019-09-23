@@ -143,5 +143,100 @@
         "type": "Social",
         "name": "Habitat for Humanity Inc",
         "date": "September 15 2019"
+    },
+    {
+        "type": "Environment",
+        "name": "Ocean Conservancy Inc",
+        "date": "September 20 2019"
+    },
+    {
+        "type": "Environment",
+        "name": "Wildlife Conservation Society",
+        "date": "September 20 2019"
+    },
+    {
+        "type": "Environment",
+        "name": "Earthjustice",
+        "date": "September 20 2019"
+    },
+    {
+        "type": "Environment",
+        "name": "Save the Elephants",
+        "date": "September 20 2019"
+    },
+    {
+        "type": "Environment",
+        "name": "Grid Alternatives",
+        "date": "September 20 2019"
+    },
+    {
+        "type": "Environment",
+        "name": "Trees Atlanta Inc",
+        "date": "September 20 2019"
+    },
+    {
+        "type": "Environment",
+        "name": "The Coral Reef Alliance",
+        "date": "September 20 2019"
+    },
+    {
+        "type": "Environment",
+        "name": "Massachusetts Audubon Society Inc",
+        "date": "September 20 2019"
+    },
+    {
+        "type": "Environment",
+        "name": "Conservation International Foundation",
+        "date": "September 20 2019"
+    },
+    {
+        "type": "Environment",
+        "name": "New York Harbor Foundation Inc",
+        "date": "September 20 2019"
+    },
+    {
+        "type": "Environment",
+        "name": "African Wildlife Foundation",
+        "date": "September 20 2019"
+    },
+    {
+        "type": "Environment",
+        "name": "Rainforest Alliance",
+        "date": "September 20 2019"
+    },
+    {
+        "type": "Environment",
+        "name": "Cornell Lab of Ornithology",
+        "date": "September 20 2019"
+    },
+    {
+        "type": "Environment",
+        "name": "Monarch Butterfly Habitat Exchange",
+        "date": "September 20 2019"
+    },
+    {
+        "type": "Environment",
+        "name": "Brooklyn Botanic Garden Corporation",
+        "date": "September 20 2019"
+    },
+    {
+        "type": "Environment",
+        "name": "Cool Earth Action USA Inc",
+        "date": "September 20 2019"
+    },
+    {
+        "type": "Environment",
+        "name": "Rocky Mountain Butterfly Consortium",
+        "date": "September 20 2019"
+    },
+    {
+        "type": "Environment",
+        "name": "Reef Check Foundation",
+        "date": "September 20 2019"
+    },
+    {
+        "type": "Environment",
+        "name": "Colorado Wolf and Wildlife Center",
+        "date": "September 20 2019"
     }
 ]
