@@ -238,5 +238,15 @@
         "type": "Environment",
         "name": "Colorado Wolf and Wildlife Center",
         "date": "September 20 2019"
+    },
+    {
+        "type": "Education",
+        "name": "Rowan University Foundation",
+        "date": "October 1 2019"
+    },
+    {
+        "type": "Culture",
+        "name": "National Novel Writing Month",
+        "date": "October 10 2019"
     }
 ]

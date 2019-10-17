@@ -83,5 +83,21 @@
         "link": "http://www.nj.com/gloucester-county/index.ssf/2012/02/glassboro_high_school_to_prese_1.html",
         "linkText": "Read Article",
         "date": "February 15 2012"
+    },
+    {
+        "type": "News",
+        "name": "New Feature: Google Home Action",
+        "publication": "tabletopaudio.com",
+        "link": "https://tabletopaudio.com/blog/2019/08/05/google-home-action/",
+        "linkText": "Read Article",
+        "date": "August 5 2019"
+    },
+    {
+        "type": "News",
+        "name": "Hey Google, Talk to Feedly",
+        "publication": "feedly.com",
+        "link": "https://blog.feedly.com/hey-google-talk-to-feedly/",
+        "linkText": "Read Article",
+        "date": "October 14 2019"
     }
 ]
