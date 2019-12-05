@@ -269,5 +269,13 @@
         "contribution": "Gave talk at",
         "link": "https://www.meetup.com/gdgnyc/events/263099523/",
         "linkText": "View Event Page"
+    },
+    {
+        "type": "Events",
+        "name": "GDE Summit 2019",
+        "location": "Mountain View, California",
+        "specificDate": "October 26-27",
+        "date": "October 26 2019",
+        "contribution": "Assisted with workshop at"
     }
 ]

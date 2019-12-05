@@ -248,5 +248,25 @@
         "type": "Culture",
         "name": "National Novel Writing Month",
         "date": "October 10 2019"
+    },
+    {
+        "type": "Social",
+        "name": "Hot Bread Kitchen Ltd",
+        "date": "November 15 2019"
+    },
+    {
+        "type": "Education",
+        "name": "Pratham USA",
+        "date": "November 15 2019"
+    },
+    {
+        "type": "Medical",
+        "name": "City of Hope",
+        "date": "November 15 2019"
+    },
+    {
+        "type": "Education",
+        "name": "Adei Institute of Technology",
+        "date": "November 15 2019"
     }
 ]
