@@ -78,5 +78,13 @@
         "date": "July 25 2019",
         "link": "https://github.com/google/tabletopaudio-action",
         "linkText": "View on GitHub"
+    },
+    {
+        "type": "Projects",
+        "name": "Smart PC",
+        "description": "Voice-controlled PC",
+        "date": "January 6 2020",
+        "link": "https://github.com/actions-on-google-labs/smart-pc-nodejs",
+        "linkText": "View on GitHub"
     }
 ]

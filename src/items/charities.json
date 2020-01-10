@@ -268,5 +268,70 @@
         "type": "Education",
         "name": "Adei Institute of Technology",
         "date": "November 15 2019"
+    },
+    {
+        "type": "Social",
+        "name": "Coats for Kids & Families",
+        "date": "December 12 2019"
+    },
+    {
+        "type": "Social",
+        "name": "Marine Toys for Tots Foundation",
+        "date": "December 12 2019"
+    },
+    {
+        "type": "Social",
+        "name": "Digital Nest Inc",
+        "date": "December 12 2019"
+    },
+    {
+        "type": "Social",
+        "name": "Community Service Society of New York",
+        "date": "December 12 2019"
+    },
+    {
+        "type": "Education",
+        "name": "The New York Public Library Astor Lenox and Tilden Foundations",
+        "date": "December 12 2019"
+    },
+    {
+        "type": "Education",
+        "name": "Room to Read",
+        "date": "December 12 2019"
+    },
+    {
+        "type": "Education",
+        "name": "Lide Foundation",
+        "date": "December 12 2019"
+    },
+    {
+        "type": "Medical",
+        "name": "Broadway Cares",
+        "date": "December 12 2019"
+    },
+    {
+        "type": "Environment",
+        "name": "Central Park Conservancy Inc",
+        "date": "December 12 2019"
+    },
+    {
+        "type": "Environment",
+        "name": "Amazon Conservation Team",
+        "date": "December 12 2019"
+    },
+    {
+        "type": "Culture",
+        "name": "Museum of Modern Art",
+        "date": "December 12 2019"
+    },
+    {
+        "type": "Culture",
+        "name": "American Museum of Natural History",
+        "date": "December 12 2019"
+    },
+    {
+        "type": "Environment",
+        "name": "Arbor Day Foundation",
+        "date": "December 20 2019"
     }
 ]

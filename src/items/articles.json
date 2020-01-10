@@ -117,5 +117,19 @@
         "link": "https://pokejungle.net/author/nickf/",
         "linkText": "Read articles",
         "date": "September 9 2019"
+    },
+    {
+        "type": "Articles",
+        "name": "Using Dialogflow Session Entities to improve the quality of your Action",
+        "link": "https://medium.com/google-developers/using-dialogflow-session-entities-to-improve-the-quality-of-your-action-af43000f7fa",
+        "linkText": "Read articles",
+        "date": "December 23 2019"
+    },
+    {
+        "type": "Articles",
+        "name": "'Hey Google, Lock My Computer'",
+        "link": "https://www.hackster.io/fleker/hey-google-lock-my-computer-67994b",
+        "linkText": "Read on Hackster",
+        "date": "January 6 2020"
     }
 ]
