@@ -52,15 +52,21 @@ const iconMap = {
     Articles: "icons/pencil.svg",
     Awards: "icons/ribbon.svg",
     Books: "icons/library.svg",
+    Culture: "icons/palette.svg",
+    Economic: "icons/currency-usd.svg",
     Education: "icons/school.svg",
     Employment: "icons/briefcase.svg",
+    Environment: "icons/bee-flower.svg",
     Events: "icons/calendar.svg",
     Hacks: "icons/code-tags.svg",
+    Medical: "icons/heart-pulse.svg",
     News: "icons/newspaper.svg",
     Patents: "icons/bank.svg",
     Projects: "icons/memory.svg",
     Publications: "icons/book.svg",
+    Social: "icons/human-male-female.svg",
     Standards: "icons/ballot.svg",
+    Technology: "icons/monitor-cellphone.svg",
     Videos: "icons/video.svg"
 }
 
