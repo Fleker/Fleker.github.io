@@ -277,5 +277,21 @@
         "specificDate": "October 26-27",
         "date": "October 26 2019",
         "contribution": "Assisted with workshop at"
+    },
+    {
+        "type":"Events",
+        "name": "Smart Home Developer Workshop",
+        "location": "Mountain View, California",
+        "specificDate": "February 4",
+        "date": "February 4 2020",
+        "contribution": "Assisted at"
+    },
+    {
+        "type": "Events",
+        "name": "DevrelCon",
+        "location": "Sunnyvale, California",
+        "specificDate": "February 4-5",
+        "date": "February 6 2020",
+        "contribution": "Organized hackathon at"
     }
 ]
