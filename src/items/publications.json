@@ -27,5 +27,13 @@
         "link": "https://edas.info/p24978",
         "linkText": "View event schedule",
         "date": "March 11 2019"
+    },
+    {
+        "type": "Publications",
+        "name": "Design of Cyanobyte: An Intermediate Representation to Standardize Digital Peripheral Datasheets for Automatic Code Generation",
+        "publishedAt": "Sensor Applications Symposium 2020",
+        "link": "https://www.researchgate.net/publication/339784157_Design_of_Cyanobyte_An_Intermediate_Representation_to_Standardize_Digital_Peripheral_Datasheets_for_Automatic_Code_Generation",
+        "linkText": "Read full text",
+        "date": "March 10 2020"
     }
 ]

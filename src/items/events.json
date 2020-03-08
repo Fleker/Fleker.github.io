@@ -293,5 +293,13 @@
         "specificDate": "February 5-6",
         "date": "February 6 2020",
         "contribution": "Organized hackathon at"
+    },
+    {
+        "type": "Events",
+        "name": "ProfHacks 2020",
+        "location": "Rowan University",
+        "specificDate": "February 29-March 1",
+        "date": "February 29 2020",
+        "contribution": "Judged at"
     }
 ]
