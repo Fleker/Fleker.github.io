@@ -94,5 +94,13 @@
         "date": "January 10 2020",
         "link": "https://github.com/actions-on-google-labs/nightingale-ssml-editor",
         "linkText": "View on GitHub"
+    },
+    {
+        "type": "Projects",
+        "name": "Emoticon Composer Font",
+        "description": "A way to compose emoticons by composing standard components into a face",
+        "date": "March 16 2020",
+        "link": "https://github.com/google/emoticon-composer-font",
+        "linkText": "View on GitHub"
     }
 ]
