@@ -28,5 +28,15 @@
         "link": "https://www.amazon.com/dp/B07MSFMRLW",
         "linkText": "Purchase eBook",
         "date": "January 14 2019"
+    },
+    {
+        "type": "Books",
+        "name": "The Virgin Dragon",
+        "series": "The Legion of Supervillains",
+        "seriesNo": "4",
+        "bookCover": "",
+        "link": "https://www.amazon.com/Virgin-Dragon-Dorian-Legion-Supervillains-ebook/dp/B087ZRGYTX",
+        "linkText": "Purchase eBook",
+        "date": "May 3 2020"
     }
 ]

@@ -99,5 +99,13 @@
         "link": "https://blog.feedly.com/hey-google-talk-to-feedly/",
         "linkText": "Read Article",
         "date": "October 14 2019"
+    },
+    {
+        "type": "News",
+        "name": "ICYMI Python on Microcontrollers - April 29",
+        "publication": "Adafruit Python on Microcontrollers Newsletter",
+        "link": "https://blog.adafruit.com/2020/04/29/icymi-python-on-microcontrollers-micropython-turns-7-circuitpython-5-3-0-rc0-is-out-and-more-python-adafruit-circuitpython-icymi-circuitpython-micropython-thepsf/",
+        "linkText": "Read newsletter",
+        "date": "April 29 2020"
     }
 ]

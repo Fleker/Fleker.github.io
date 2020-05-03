@@ -333,5 +333,20 @@
         "type": "Environment",
         "name": "Arbor Day Foundation",
         "date": "December 20 2019"
+    },
+    {
+        "type": "Social",
+        "name": "Food Bank for New York City",
+        "date": "March 26 2020"
+    },
+    {
+        "type": "Social",
+        "name": "Feeding America",
+        "date": "March 26 2020"
+    },
+    {
+        "type": "Social",
+        "name": "Food Bank of South Jersey Inc",
+        "date": "March 26 2020"
     }
 ]
