@@ -348,5 +348,10 @@
         "type": "Social",
         "name": "Food Bank of South Jersey Inc",
         "date": "March 26 2020"
+    },
+    {
+        "type": "Medical",
+        "name": "Central Park Medical Unit",
+        "date": "May 8 2020"
     }
 ]
