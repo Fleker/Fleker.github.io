@@ -38,5 +38,12 @@
         "link": "https://www.amazon.com/Virgin-Dragon-Dorian-Legion-Supervillains-ebook/dp/B087ZRGYTX",
         "linkText": "Purchase eBook",
         "date": "May 3 2020"
+    },
+    {
+        "type": "Books",
+        "name": "Solarpunk Anthology Series",
+        "link": "https://fleker.substack.com/",
+        "linkText": "Subscribe via Substack",
+        "date": "January 13 2021"
     }
 ]
