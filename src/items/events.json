@@ -301,5 +301,13 @@
         "specificDate": "February 29-March 1",
         "date": "February 29 2020",
         "contribution": "Judged at"
+    },
+    {
+        "type": "Events",
+        "name": "IEEE Virtual Trivia",
+        "location": "Online",
+        "specificDate": "July",
+        "date": "July 15 2020",
+        "contribution": "Hosted"
     }
 ]

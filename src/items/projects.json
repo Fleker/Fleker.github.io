@@ -102,5 +102,13 @@
         "date": "March 16 2020",
         "link": "https://github.com/google/emoticon-composer-font",
         "linkText": "View on GitHub"
+    },
+    {
+        "type": "Projects",
+        "name": "dishout.recipes",
+        "description": "Git-hosted recipes platform",
+        "date": "February 11 2021",
+        "link": "http://dishout.recipes",
+        "linkText": "View online"
     }
 ]

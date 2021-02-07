@@ -131,5 +131,12 @@
         "link": "https://www.hackster.io/fleker/hey-google-lock-my-computer-67994b",
         "linkText": "Read on Hackster",
         "date": "January 6 2020"
+    },
+    {
+        "type": "Articles",
+        "name": "Using machine-readable datasheets to create datasheets with Cyanobyte and LaTeX",
+        "link": "https://fleker.medium.com/using-machine-readable-datasheets-to-create-datasheets-with-cyanobyte-and-latex-cf57a0e953e7",
+        "linkText": "Read on Medium",
+        "date": "March 29 2020"
     }
 ]
