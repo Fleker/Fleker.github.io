@@ -47,6 +47,16 @@ function populateMenu(categories, dataset = 'me') {
     document.getElementById('links').innerHTML = output;
 }
 
+function okr(score) {
+    if (score >= 0.7) {
+        return `<span style="color: #4CAF50">${score}</span>`
+    } else if (score >= 0.5) {
+        return `<span style="color: #FF5722">${score}</span>`
+    } else {
+        return `<span style="color: #f44336">${score}</span>`
+    }
+}
+
 const iconMap = {
     Apps: "icons/code-tags.svg",
     Articles: "icons/pencil.svg",
@@ -61,6 +71,7 @@ const iconMap = {
     Hacks: "icons/code-tags.svg",
     Medical: "icons/heart-pulse.svg",
     News: "icons/newspaper.svg",
+    OKR: "icons/chart-pie.svg",
     Patents: "icons/bank.svg",
     Projects: "icons/memory.svg",
     Publications: "icons/book.svg",
@@ -113,11 +124,16 @@ let baseHtml = ''
 const charities = require('../items/charities.json')
 charities.sort(dateSort)
 
+const okrs = require('../items/okrs.json')
+okrs.sort(dateSort)
+
 function populateTimeline(filter, dataset = me) {
     if (dataset === "me") {
         dataset = me
     } else if (dataset === "charities") {
         dataset = charities
+    } else if (dataset === "okrs") {
+        dataset = okrs
     }
     // Reset
     let count = 0;
@@ -199,6 +215,11 @@ function populateTimeline(filter, dataset = me) {
             } else if (item.type === "Standards") {
                 output += `<h2>${item.name}</h2>`;
                 output += `<h3>${item.id}</h3>`;
+            } else if (item.type === "OKR") {
+                output += `<h2>Overall ${okr(item.overall)}</h2>`
+                Object.entries(item.scores).forEach(([label, score]) => {
+                    output += `<h3>${label}: ${okr(score)}</h3>`
+                })
             } else {
                 output += `<h2>${item.name}</h2>`;
             }
@@ -264,6 +285,12 @@ function charityDialog() {
     populateMenu(categories, 'charities')
 }
 window.charityDialog = charityDialog
+
+function okrDialog() {
+    const categories = populateTimeline(undefined, okrs)
+    populateMenu(categories, 'okrs')
+}
+window.okrDialog = okrDialog
 
 window.onload = function() {
     itemDialog()
