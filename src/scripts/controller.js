@@ -114,7 +114,7 @@ me.push(...require('../items/news.json'))
 me.push(...require('../items/patents.json'))
 me.push(...require('../items/projects.json'))
 me.push(...require('../items/publications.json'))
-me.push(...require('../items/standards.json'))
+// me.push(...require('../items/standards.json'))
 me.push(...require('../items/videos.json'))
 
 // Sort by date

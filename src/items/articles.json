@@ -138,5 +138,12 @@
         "link": "https://fleker.medium.com/using-machine-readable-datasheets-to-create-datasheets-with-cyanobyte-and-latex-cf57a0e953e7",
         "linkText": "Read on Medium",
         "date": "March 29 2020"
+    },
+    {
+        "type": "Articles",
+        "name": "Cyanobyte turns machine-readable datasheets into web documentation",
+        "link": "https://fleker.medium.com/cyanobyte-turns-machine-readable-datasheets-into-web-documentation-bc5db3c28f35",
+        "linkText": "Read on Medium",
+        "date": "February 16 2021"
     }
 ]
