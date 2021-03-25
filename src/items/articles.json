@@ -145,5 +145,12 @@
         "link": "https://fleker.medium.com/cyanobyte-turns-machine-readable-datasheets-into-web-documentation-bc5db3c28f35",
         "linkText": "Read on Medium",
         "date": "February 16 2021"
+    },
+    {
+        "type": "Articles",
+        "name": "PhillyScript: Writing my own programming language",
+        "link": "https://fleker.medium.com/phillyscript-writing-my-own-programming-language-15bd6c23bcb2",
+        "linkText": "Read on Medium",
+        "date": "March 15 2021"
     }
 ]

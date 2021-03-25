@@ -47,5 +47,9 @@
         "link": "https://www.tiktok.com/@fleker",
         "type": "Tiktok",
         "icon": "icons/tiktok.svg"
+    }, {
+        "link": "https://letterboxd.com/fleker/",
+        "type": "Letterboxd",
+        "icon": "icons/movie.svg"
     }
 ]

@@ -309,5 +309,13 @@
         "specificDate": "July",
         "date": "July 15 2020",
         "contribution": "Hosted"
+    },
+    {
+        "type": "Events",
+        "name": "ProfHacks 2021",
+        "location": "Rowan University (Online)",
+        "specificDate": "March 6-7",
+        "date": "March 6 2021",
+        "contribution": "Judged at"
     }
 ]
