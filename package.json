@@ -1,6 +1,6 @@
 {
     "devDependencies": {
-        "parcel-bundler": "^1.12.4"
+        "parcel-bundler": "^1.12.5"
     },
     "scripts": {
         "build": "cd src && parcel build --public-url ./ ./index.html ./icons/*.svg ./scripts/*.js *.js && cp -r ./dist/* ../",
