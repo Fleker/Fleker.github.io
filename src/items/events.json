@@ -317,5 +317,13 @@
         "specificDate": "March 6-7",
         "date": "March 6 2021",
         "contribution": "Judged at"
+    },
+    {
+        "type": "Events",
+        "name": "UConn ECE Graduate Poster Competition",
+        "location": "University of Connecticut (Online)",
+        "specificDate": "March 28",
+        "date": "March 28 2021",
+        "contribution": "Judged at"
     }
 ]

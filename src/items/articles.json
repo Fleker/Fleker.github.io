@@ -152,5 +152,26 @@
         "link": "https://fleker.medium.com/phillyscript-writing-my-own-programming-language-15bd6c23bcb2",
         "linkText": "Read on Medium",
         "date": "March 15 2021"
+    },
+    {
+        "type": "Articles",
+        "name": "Experimenting with CI Tools -- Git Presubmit Linter",
+        "link": "https://fleker.medium.com/experimenting-with-ci-tools-git-presubmit-linter-1442c38b57cd",
+        "linkText": "Read on Medium",
+        "date": "March 26 2021"
+    },
+    {
+        "type": "Articles",
+        "name": "Implementing delays in Cyanobyte through a callback mechanism",
+        "link": "https://fleker.medium.com/implementing-delays-in-cyanobyte-through-a-callback-mechanism-15d16c7901ec",
+        "linkText": "Read on Medium",
+        "date": "March 30 2021"
+    },
+    {
+        "type": "Articles",
+        "name": "Executing smart contracts in your browser using Truffle, Ganache, Browserify, and Web3",
+        "link": "https://fleker.medium.com/executing-smart-contracts-in-your-browser-using-truffle-ganache-browserify-and-web3-200574d13064",
+        "linkText": "Read on Medium",
+        "date": "April 12 2021"
     }
 ]

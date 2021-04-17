@@ -45,5 +45,15 @@
         "link": "https://fleker.substack.com/",
         "linkText": "Subscribe via Substack",
         "date": "January 13 2021"
+    },
+    {
+        "type": "Books",
+        "name": "The Feckless King",
+        "series": "The Legion of Supervillains",
+        "seriesNo": "5",
+        "bookCover": "",
+        "link": "https://www.amazon.com/dp/B091BGY29J",
+        "linkText": "Purchase eBook",
+        "date": "March 31 2021"
     }
 ]
