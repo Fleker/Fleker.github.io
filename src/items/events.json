@@ -325,5 +325,13 @@
         "specificDate": "March 28",
         "date": "March 28 2021",
         "contribution": "Judged at"
+    },
+    {
+        "type": "Events",
+        "name": "Google I/O",
+        "location": "Online",
+        "specificDate": "May 18-20",
+        "date": "May 18 2021",
+        "contribution": "Moderated forums at"
     }
 ]
