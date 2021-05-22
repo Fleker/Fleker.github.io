@@ -13,6 +13,12 @@
     },
     {
         "type": "Awards",
+        "name": "IEEE MADc App Development Competition",
+        "award": "Best Design",
+        "date": "June 1 2015"
+    },
+    {
+        "type": "Awards",
         "name": "Rowan Idea Pitch Competition - Smart Tattoos",
         "award": "2nd Place",
         "date": "March 31 2017"
