@@ -333,5 +333,13 @@
         "specificDate": "May 18-20",
         "date": "May 18 2021",
         "contribution": "Moderated forums at"
+    },
+    {
+        "type": "Events",
+        "name": "IEEE YP Career Panel",
+        "location": "Online",
+        "specificDate": "Aug 11",
+        "date": "August 11 2021",
+        "contribution": "Participated in"
     }
 ]

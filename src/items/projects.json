@@ -110,5 +110,21 @@
         "date": "February 11 2021",
         "link": "http://dishout.recipes",
         "linkText": "View online"
+    },
+    {
+        "type": "Projects",
+        "name": "Chipyard Visualizer",
+        "description": "Visualizer for Chipyard SoC Simulations",
+        "link": "https://felker.dev/chipyard-viewer/",
+        "linkText": "View online",
+        "date": "October 20 2021"
+    },
+    {
+        "type": "Projects",
+        "name": "Interactive Canvas DevTools",
+        "description": "Chrome Extension to improve developer productivity and prototyping",
+        "link": "https://chrome.google.com/webstore/detail/interactive-canvas-devtoo/pkjknimohoicpbkkgdhbdhcgnbcdefhk",
+        "linkText": "View in Chrome Web Store",
+        "date": "September 26 2021"
     }
 ]

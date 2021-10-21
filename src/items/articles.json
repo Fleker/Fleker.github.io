@@ -173,5 +173,26 @@
         "link": "https://fleker.medium.com/executing-smart-contracts-in-your-browser-using-truffle-ganache-browserify-and-web3-200574d13064",
         "linkText": "Read on Medium",
         "date": "April 12 2021"
+    },
+    {
+        "type": "Articles",
+        "name": "Compressing text files using emoji",
+        "link": "https://fleker.medium.com/compressing-text-files-using-emoji-127556441b6e",
+        "linkText": "Read on Medium",
+        "date": "May 23 2021"
+    },
+    {
+        "type": "Articles",
+        "name": "Forget YAGNI, Consider YMANI",
+        "link": "https://fleker.medium.com/forget-yagni-consider-ymani-5b4e23396558",
+        "linkText": "Read on Medium",
+        "date": "June 24 2021"
+    },
+    {
+        "type": "Articles",
+        "name": "Building iCal Feeds: Things I've Learned",
+        "link": "https://fleker.medium.com/building-ical-feeds-things-ive-learned-cc313eee6aaa",
+        "linkText":"Read on Medium",
+        "date": "September 21 2021"
     }
 ]
