@@ -14,8 +14,5 @@ yarn serve # or yarn build
 ```
 
 ## Publish changes
-```
-yarn clean-build
-yarn build
-# git add, commit, push
-```
+
+You can run `yarn build` but GitHub Actions do that automatically on deploy.
