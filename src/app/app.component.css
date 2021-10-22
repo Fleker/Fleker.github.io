@@ -216,54 +216,15 @@ header td {
     transition: 0.6s all;
     margin: 4em 0;
   }
-  timeline-block.is-hidden {
-    /* visibility: hidden; */
-    /* opacity: 0; */
-  }
   timeline-block.bounce-in {
     visibility: visible;
     opacity: 1;
-    /* -webkit-animation: cd-bounce-2 0.6s;
-    -moz-animation: cd-bounce-2 0.6s;
-    animation: cd-bounce-2 0.6s; */
   }
   timeline-block.odd.bounce-in {
-    -webkit-animation: cd-bounce-2-inverse 0.6s;
-    -moz-animation: cd-bounce-2-inverse 0.6s;
     animation: cd-bounce-2-inverse 0.6s;
   }
 }
 
-@-webkit-keyframes cd-bounce-2 {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateX(-100px);
-  }
-
-  60% {
-    opacity: 1;
-    -webkit-transform: translateX(20px);
-  }
-
-  100% {
-    -webkit-transform: translateX(0);
-  }
-}
-@-moz-keyframes cd-bounce-2 {
-  0% {
-    opacity: 0;
-    -moz-transform: translateX(-100px);
-  }
-
-  60% {
-    opacity: 1;
-    -moz-transform: translateX(20px);
-  }
-
-  100% {
-    -moz-transform: translateX(0);
-  }
-}
 @keyframes cd-bounce-2 {
   0% {
     opacity: 0;
@@ -291,36 +252,7 @@ header td {
     transform: translateX(0);
   }
 }
-@-webkit-keyframes cd-bounce-2-inverse {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateX(100px);
-  }
 
-  60% {
-    opacity: 1;
-    -webkit-transform: translateX(-20px);
-  }
-
-  100% {
-    -webkit-transform: translateX(0);
-  }
-}
-@-moz-keyframes cd-bounce-2-inverse {
-  0% {
-    opacity: 0;
-    -moz-transform: translateX(100px);
-  }
-
-  60% {
-    opacity: 1;
-    -moz-transform: translateX(-20px);
-  }
-
-  100% {
-    -moz-transform: translateX(0);
-  }
-}
 @keyframes cd-bounce-2-inverse {
   0% {
     opacity: 0;
@@ -349,36 +281,6 @@ header td {
   }
 }
 
-@-webkit-keyframes cd-bounce-2-inverse {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateX(100px);
-  }
-
-  60% {
-    opacity: 1;
-    -webkit-transform: translateX(-20px);
-  }
-
-  100% {
-    -webkit-transform: translateX(0);
-  }
-}
-@-moz-keyframes cd-bounce-2-inverse {
-  0% {
-    opacity: 0;
-    -moz-transform: translateX(100px);
-  }
-
-  60% {
-    opacity: 1;
-    -moz-transform: translateX(-20px);
-  }
-
-  100% {
-    -moz-transform: translateX(0);
-  }
-}
 @keyframes cd-bounce-2-inverse {
   0% {
     opacity: 0;
