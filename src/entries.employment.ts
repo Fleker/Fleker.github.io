@@ -31,7 +31,14 @@ export default [
       "type": "Employment",
       "name": "Google",
       "position": "Developer Programs Engineer - Google Assistant",
-      "ended": "Present",
+      "ended": "November 17 2021",
       "date": "January 22 2019"
+  },
+  {
+      type: "Employment",
+      name: "Google",
+      position: "Software Engineer - Shopping 3PI",
+      ended: "Present",
+      date: "November 17 2021"
   }
 ]

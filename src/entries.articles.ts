@@ -194,5 +194,12 @@ export default [
       "link": "https://fleker.medium.com/building-ical-feeds-things-ive-learned-cc313eee6aaa",
       "linkText":"Read on Medium",
       "date": "September 21 2021"
+  },
+  {
+      type: "Articles",
+      link: "http://developers.googleblog.com/2021/11/improve-your-development-workflow-with-interactive-canvas-devtools.html",
+      linkText: "Read on Google Developers Blog",
+      name: "Improve your development workflow with Interactive Canvas DevTools",
+      date: "November 23 2021"
   }
 ]
