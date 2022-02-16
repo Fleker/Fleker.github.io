@@ -206,6 +206,7 @@ export default [
       type: "Articles",
       link: "https://medium.com/@fleker/visualizing-risc-v-chipyard-systems-with-chipyard-viewer-329aeba78cd3",
       linkText: "Read on Medium",
+      name: "Visualizing RISC-V Chipyard systems with Chipyard Viewer",
       date: "February 16 2022"
   }
 ]
