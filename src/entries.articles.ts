@@ -201,5 +201,11 @@ export default [
       linkText: "Read on Google Developers Blog",
       name: "Improve your development workflow with Interactive Canvas DevTools",
       date: "November 23 2021"
+  },
+  {
+      type: "Articles",
+      link: "https://medium.com/@fleker/visualizing-risc-v-chipyard-systems-with-chipyard-viewer-329aeba78cd3",
+      linkText: "Read on Medium",
+      date: "February 16 2022"
   }
 ]

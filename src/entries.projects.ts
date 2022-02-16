@@ -126,5 +126,13 @@ export default [
       "link": "https://chrome.google.com/webstore/detail/interactive-canvas-devtoo/pkjknimohoicpbkkgdhbdhcgnbcdefhk",
       "linkText": "View in Chrome Web Store",
       "date": "September 26 2021"
+  },
+  {
+      type: "Projects",
+      name: "Common Expression Language for Node.js",
+      description: "A locally running parser for intermediate logic",
+      link: "https://www.npmjs.com/package/@fleker/cel-js",
+      linkText: "View on NPM",
+      date: "February 7 2022",
   }
 ]
