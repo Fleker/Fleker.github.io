@@ -208,5 +208,12 @@ export default [
       linkText: "Read on Medium",
       name: "Visualizing RISC-V Chipyard systems with Chipyard Viewer",
       date: "February 16 2022"
-  }
+  },
+  {
+      type: "Articles",
+      link: "https://fleker.medium.com/a-chrome-extension-that-understands-emoji-art-for-screen-readers-cd37b344792f",
+      linkText: "Read on Medium",
+      name: "A Chrome Extension that understands emoji art for screen readers",
+      date: "March 1 2022"
+  },
 ]

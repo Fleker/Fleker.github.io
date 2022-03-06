@@ -341,5 +341,15 @@ export default [
       "specificDate": "Aug 11",
       "date": "August 11 2021",
       "contribution": "Participated in"
-  }
+  },
+  {
+    "type": "Events",
+    "name": "ProfHacks 2022",
+    "location": "Glassboro, NJ",
+    "date": "February 27 2022",
+    "contribution": "Judged at",
+    "specificDate": "Feb 26-27",
+    "link": "https://profhacks2022.devpost.com/",
+    "linkText": "View DevPost Submissions"
+},
 ]

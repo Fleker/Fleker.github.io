@@ -134,5 +134,13 @@ export default [
       link: "https://www.npmjs.com/package/@fleker/cel-js",
       linkText: "View on NPM",
       date: "February 7 2022",
+  },
+  {
+      type: "Projects",
+      name: "Emoji Art Captions Browser Extension",
+      description: "A Chrome extension to make text art accessible to screen readers",
+      link: "https://github.com/Fleker/emoji-art-caption",
+      linkText: "View on GitHub",
+      date: "March 1 2022",
   }
 ]
