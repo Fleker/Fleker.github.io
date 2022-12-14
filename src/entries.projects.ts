@@ -142,5 +142,29 @@ export default [
       link: "https://github.com/Fleker/emoji-art-caption",
       linkText: "View on GitHub",
       date: "March 1 2022",
-  }
+  },
+  {
+    type: "Projects",
+    name: "🎩Gents",
+    description: "A barebones code generation tool for TypeScript",
+    link: "https://www.npmjs.com/package/@fleker/gents",
+    linkText: "View on NPM",
+    date: "May 21 2022",
+},
+{
+    type: "Projects",
+    name: "Salamander",
+    description: "A type-safe wrapper for Firestore",
+    link: "https://www.npmjs.com/package/@fleker/salamander",
+    linkText: "View on NPM",
+    date: "August 18 2022",
+},
+  {
+    type: "Projects",
+    name: "Rafflesia for Overleaf",
+    description: "A Chrome extension that adds additional features to Overleaf",
+    link: "https://github.com/Fleker/rafflesia",
+    linkText: "View on GitHub",
+    date: "July 13 2022",
+},
 ]

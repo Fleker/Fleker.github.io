@@ -216,4 +216,67 @@ export default [
       name: "A Chrome Extension that understands emoji art for screen readers",
       date: "March 1 2022"
   },
+  {
+    type: "Articles",
+    link: "https://fleker.medium.com/pre-processing-my-typescript-project-using-gents-d2396f0fad83",
+    linkText: "Read on Medium",
+    name: "Pre-processing my TypeScript project using 🎩 Gents",
+    date: "May 22 2022"
+},
+{
+    type: "Articles",
+    link: "https://fleker.medium.com/supercharging-operations-with-common-expression-language-in-the-browser-8509854be77e",
+    linkText: "Read on Medium",
+    name: "Supercharging operations with Common Expression Language in the browser",
+    date: "June 29 2022"
+},
+{
+    type: "Articles",
+    link: "https://fleker.medium.com/integrating-advanced-filtering-in-a-web-application-common-expression-language-part-2-1297132ac9c7",
+    linkText: "Read on Medium",
+    name: "Integrating advanced filtering in a web application: Common Expression Language Part 2",
+    date: "June 29 2022"
+},
+{
+    type: "Articles",
+    link: "https://fleker.medium.com/building-a-chrome-extension-with-the-angular-framework-rafflesia-part-1-dd7fe8702a46",
+    linkText: "Read on Medium",
+    name: "Building a Chrome Extension with the Angular framework / Rafflesia Part 1",
+    date: "July 14 2022"
+},
+{
+    type: "Articles",
+    link: "https://fleker.medium.com/plumbing-into-overleaf-editor-logic-rafflesia-part-2-678693e49cf7",
+    linkText: "Read on Medium",
+    name: "Plumbing into Overleaf editor logic / Rafflesia Part 2",
+    date: "July 29 2022"
+},
+{
+    type: "Articles",
+    link: "https://fleker.medium.com/latex-formula-gui-95b0757e1599",
+    linkText: "Read on Medium",
+    name: "Interactive LaTeX GUI / Rafflesia Part 3",
+    date: "August 11 2022"
+},
+{
+    type: "Articles",
+    link: "https://fleker.medium.com/advanced-use-cases-for-typescript-pre-processing-gents-part-2-2c36057c8c2d",
+    linkText: "Read on Medium",
+    name: "Advanced use-cases for TypeScript pre-processing: 🎩 Gents Part 2",
+    date: "August 23 2022"
+},
+{
+    type: "Articles",
+    link: "https://fleker.medium.com/type-proofing-my-firestore-with-salamander-3781cff0e35d",
+    linkText: "Read on Medium",
+    name: "Type-proofing my Firestore with 🦎 Salamander",
+    date: "September 8 2022"
+},
+{
+    type: "Articles",
+    link: "https://fleker.medium.com/dall-e-2-and-prompt-engineering-9b3d4d471787",
+    linkText: "Read on Medium",
+    name: "DALL-E 2 and Prompt Engineering",
+    date: "November 28 2022"
+},
 ]

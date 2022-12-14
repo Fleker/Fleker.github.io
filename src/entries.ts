@@ -4,6 +4,7 @@ export interface BaseEntry {
   date: string
   link?: string
   linkText?: string
+  award?: string
   contribution?: string
   overall?: number
   series?: string

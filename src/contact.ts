@@ -51,5 +51,13 @@ export default [
       "link": "https://letterboxd.com/fleker/",
       "type": "Letterboxd",
       "icon": "assets/movie.svg"
-  }
+  }, {
+    "link": "https://mastodon.world/@fleker",
+    "type": "Mastodon",
+    "icon": "assets/mastodon.svg"
+  }, {
+    "link": "https://pokedextracker.com/u/fleker/",
+    "type": "PokéDex Tracker",
+    "icon": "assets/pokemon-go.svg"
+  },
 ]

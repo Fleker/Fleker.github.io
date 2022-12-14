@@ -27,6 +27,7 @@ export class TimelineBlockComponent implements OnChanges {
 
   get header3() {
     return {
+      'Awards': `Won ${this.entry!.award}`,
       'Books': this.entry!.series ? `${this.entry!.series} #${this.entry!.seriesNo}` : '',
       'Education': this.entry!.gpa ? `${this.entry!.gpa} GPA` : '',
       'Employment': this.entry!.position || '',
