@@ -352,4 +352,12 @@ export default [
     "link": "https://profhacks2022.devpost.com/",
     "linkText": "View DevPost Submissions"
 },
+{
+    "type": "Events",
+    "name": "Hour of Code at KIPP",
+    "location": "Bronx, NY",
+    "date": "December 15 2022",
+    "contribution": "Hosted event at",
+    "specificDate": "Dec 15",
+},
 ]

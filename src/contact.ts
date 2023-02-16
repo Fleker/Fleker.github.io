@@ -59,5 +59,9 @@ export default [
     "link": "https://pokedextracker.com/u/fleker/",
     "type": "PokéDex Tracker",
     "icon": "assets/pokemon-go.svg"
-  },
+  }, {
+    "link": "https://www.google.com/maps/contrib/115420961179277990370/reviews",
+    "type": "Google Maps",
+    "icon": "assets/maps.svg",
+  }
 ]
