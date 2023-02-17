@@ -31,6 +31,6 @@ export default [
     "seriesNo": "3",
     "link": "https://www.amazon.com/dp/B0BSG1JX66",
     "linkText": "Purchase eBook",
-    "date": "February 1 2022"
+    "date": "February 1 2023"
   },
 ]
