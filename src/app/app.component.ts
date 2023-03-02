@@ -9,7 +9,7 @@ import contacts from '../contact'
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements AfterViewInit {
-  title = 'endless-frontier';
+  title = 'felker-dev';
   entries = entries.sort(dateSort);
   filter = entries;
   categories = (() => {
@@ -26,7 +26,7 @@ export class AppComponent implements AfterViewInit {
 
   hideBlocks(blocks: NodeListOf<HTMLElement>, offset: number) {
     blocks.forEach(block => {
-      console.log(block.offsetTop, window.scrollY + window.innerHeight * offset)
+      // console.log(block.offsetTop, window.scrollY + window.innerHeight * offset)
       if (block.offsetTop > window.scrollY + window.innerHeight * offset) {
         block.classList.add('is-hidden')
       }
