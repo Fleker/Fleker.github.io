@@ -22,7 +22,7 @@ export class UrlmapperComponent implements OnInit {
     this.url = urlMap[path]
     console.log('Path is', path, 'redirecting to', this.url!)
     setTimeout(() => {
-      // window.location.href = this.url!
+      window.location.href = this.url!
     }, 3000)
   }
 }
