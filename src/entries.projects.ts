@@ -167,4 +167,12 @@ export default [
     linkText: "View on GitHub",
     date: "July 13 2022",
 },
+    {
+    type: "Projects",
+    name: "Quillcast",
+    description: "A system to convert Newsletters into Podcasts with Generative AI",
+    link: "https://quillcast.app/",
+    linkText: "View Website",
+    date: "March 15 2023",
+},
 ]
