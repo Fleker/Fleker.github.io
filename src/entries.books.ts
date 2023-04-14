@@ -33,4 +33,22 @@ export default [
     "linkText": "Purchase eBook",
     "date": "February 1 2023"
   },
+  {
+    "type": "Books",
+    "name": "The Virgin Dragon",
+    "series": "The Spectre of War",
+    "seriesNo": "4",
+    "link": "https://www.amazon.com/Virgin-Dragon-Spectre-War-Book-ebook/dp/B0BYB5M77J",
+    "linkText": "Purchase eBook",
+    "date": "March 1 2023"
+  },
+    {
+    "type": "Books",
+    "name": "The Devout Envoy",
+    "series": "The Spectre of War",
+    "seriesNo": "4.5",
+    "link": "https://www.amazon.com/dp/B0C2BV3LF8",
+    "linkText": "Purchase eBook",
+    "date": "April 13 2023"
+  },
 ]
