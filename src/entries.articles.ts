@@ -279,4 +279,32 @@ export default [
     name: "DALL-E 2 and Prompt Engineering",
     date: "November 28 2022"
 },
+{
+    type: "Articles",
+    link: "https://fleker.medium.com/there-is-no-ai-alignment-problem-f0882404c0f9",
+    linkText: "Read on Medium",
+    name: "There is no AI Alignment Problem",
+    date: "March 5 2023"
+},
+{
+    type: "Articles",
+    link: "https://fleker.medium.com/generative-ai-will-replace-journalists-heres-why-that-s-good-8bc2ebbcfeb0",
+    linkText: "Read on Medium",
+    name: "Generative AI will replace journalists. Here’s why that’s good.",
+    date: "May 8 2023"
+},
+{
+    type: "Articles",
+    link: "https://fleker.medium.com/list/gem5-research-220c949d4159",
+    linkText: "Read on Medium",
+    name: "Series on Gem5",
+    date: "April 22 2023"
+},
+{
+    type: "Articles",
+    link: "https://fleker.medium.com/improving-cel-performance-with-streaming-api-4a8282008851",
+    linkText: "Read on Medium",
+    name: "Improving CEL performance with streaming API",
+    date: "May 22 2023"
+},
 ]

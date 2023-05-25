@@ -42,7 +42,7 @@ export default [
     "linkText": "Purchase eBook",
     "date": "March 1 2023"
   },
-    {
+  {
     "type": "Books",
     "name": "The Devout Envoy",
     "series": "The Spectre of War",
@@ -50,5 +50,14 @@ export default [
     "link": "https://www.amazon.com/dp/B0C2BV3LF8",
     "linkText": "Purchase eBook",
     "date": "April 13 2023"
+  },
+  {
+    "type": "Books",
+    "name": "The Feckless King",
+    "series": "The Spectre of War",
+    "seriesNo": "5",
+    "link": "https://www.amazon.com/dp/B0C491YRB4",
+    "linkText": "Purchase eBook",
+    "date": "May 3 2023"
   },
 ]
