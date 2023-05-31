@@ -307,4 +307,11 @@ export default [
     name: "Improving CEL performance with streaming API",
     date: "May 22 2023"
 },
+  {
+    type: "Articles",
+    link: "https://www.liberalcurrents.com/yimbyism-for-colleges/",
+    linkText: "Read on Liberal Currents",
+    name: "YIMBYism for Colleges",
+    date: "May 31 2023"
+  }
 ]
