@@ -41,5 +41,11 @@ export default [
       "date": "August 6 2017",
       "link": "https://www.youtube.com/watch?v=vFyOAY8bNk4",
       "linkText": "Watch Video"
+  }, {
+      "type": "Videos",
+      "name": "VFX: A Cinematic Summarizations | Nerd Nite NYC",
+      "date": "July 20 2023",
+      "link": "https://youtu.be/hbSBiHvWjd0",
+      "linkText": "Watch Video"
   }
 ]

@@ -63,5 +63,9 @@ export default [
     "link": "https://www.google.com/maps/contrib/115420961179277990370/reviews",
     "type": "Google Maps",
     "icon": "assets/maps.svg",
+  }, {
+    "link": "https://www.threads.net/@fleker",
+    "type": "Threads",
+    "icon": "assets/threads.svg",
   }
 ]
