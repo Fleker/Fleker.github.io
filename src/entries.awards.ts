@@ -22,5 +22,14 @@ export default [
       "name": "Rowan Idea Pitch Competition - Smart Tattoos",
       "award": "2nd Place",
       "date": "March 31 2017"
+  },
+  {
+    /* https://parpa.substack.com/p/sci-fi-fridays-compilation */
+    "type": "Awards",
+    "name": "Spectech Speculative Fiction",
+    "award": "Top Author",
+    "date": "August 18 2023",
+    "link": "https://parpa.substack.com/p/sci-fi-fridays-compilation",
+    "linkText": "Learn More"
   }
 ]
