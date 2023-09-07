@@ -360,4 +360,13 @@ export default [
     "contribution": "Hosted event at",
     "specificDate": "Dec 15",
 },
+{
+    "type": "Events",
+    "name": "IEEE NY YP Summer Social",
+    "location": "Long Island City, NY",
+    "date": "August 30 2023",
+    "contribution": "Hosted",
+    "link": "https://events.vtools.ieee.org/m/367936",
+    "linkText": "View on vTools"
+}
 ]
