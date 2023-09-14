@@ -313,5 +313,12 @@ export default [
     linkText: "Read on Liberal Currents",
     name: "YIMBYism for Colleges",
     date: "May 31 2023"
+  },
+  {
+    type: "Articles",
+    link: "https://www.liberalcurrents.com/how-new-york-city-botched-the-migrant-crisis/",
+    linkText: "Read on Liberal Currents",
+    name: "How New York City Botched the Migrant Crisis",
+    date: "September 14 2023"
   }
 ]
