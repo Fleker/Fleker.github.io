@@ -47,5 +47,11 @@ export default [
       "date": "July 20 2023",
       "link": "https://youtu.be/hbSBiHvWjd0",
       "linkText": "Watch Video"
-  }
+  }, {
+    "type": "Videos",
+    "name": "Building a PWA Pokémon game with Angular & Firebase | Connect Tech 2023",
+    "date": "October 26 2023",
+    "link": "https://youtu.be/tTs5jQjZQtY",
+    "linkText": "Watch Video"
+}
 ]

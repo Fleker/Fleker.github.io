@@ -181,5 +181,12 @@ export default [
     link: "https://quillcast.app/evening",
     linkText: "View Website",
     date: "September 5 2023",
+}, {
+    type: "Projects",
+    name: "Pokémon as a Service",
+    description: "A web-based game with multiplayer capabilities",
+    link: "https://pokemon-as-a-service.web.app",
+    linkText: "Play Demo",
+    date: "October 26 2023",
 },
 ]

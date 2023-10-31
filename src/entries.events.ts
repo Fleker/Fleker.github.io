@@ -368,5 +368,14 @@ export default [
     "contribution": "Hosted",
     "link": "https://events.vtools.ieee.org/m/367936",
     "linkText": "View on vTools"
+},
+{
+    "type": "Events",
+    "name": "Connect.Tech",
+    "location": "Atlanta, GA",
+    "date": "October 26 2023",
+    "contribution": "Presented at",
+    "link": "https://2023.connect.tech/session/499489",
+    "linkText": "View Session"
 }
 ]
