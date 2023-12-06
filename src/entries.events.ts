@@ -377,5 +377,13 @@ export default [
     "contribution": "Presented at",
     "link": "https://2023.connect.tech/session/499489",
     "linkText": "View Session"
-}
+},
+{
+    "type": "Events",
+    "name": "Hour of Code at Jonas Bronck",
+    "location": "Bronx, NY",
+    "date": "December 4 2023",
+    "contribution": "Hosted event at",
+    "specificDate": "Dec 4",
+},
 ]

@@ -320,5 +320,12 @@ export default [
     linkText: "Read on Liberal Currents",
     name: "How New York City Botched the Migrant Crisis",
     date: "September 14 2023"
+  },
+  {
+    type: "Articles",
+    link: "https://www.liberalcurrents.com/recalling-the-irish-diaspora/",
+    linkText: "Read on Liberal Currents",
+    name: "Recalling the Irish Diaspora",
+    date: "December 4 2023"
   }
 ]

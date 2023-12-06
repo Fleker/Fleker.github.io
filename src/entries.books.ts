@@ -60,4 +60,13 @@ export default [
     "linkText": "Purchase eBook",
     "date": "May 3 2023"
   },
+  {
+    "type": "Books",
+    "name": "The Chaotic Stoic",
+    "series": "The Spectre of War",
+    "seriesNo": "6",
+    "link": "https://www.amazon.com/Chaotic-Stoic-Spectre-War-Book-ebook/dp/B0CP6QRWFX",
+    "linkText": "Purchase eBook",
+    "date": "December 1 2023"
+  },
 ]
