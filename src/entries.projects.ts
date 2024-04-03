@@ -189,4 +189,37 @@ export default [
     linkText: "Play Demo",
     date: "October 26 2023",
 },
+{
+    "type": "Projects",
+    name: "Gloucester County Newsletter",
+    description: "Local news augmented by AI",
+    link: "https://gloucestercounty.substack.com/",
+    linkText: "View Newsletter",
+    date: "February 19 2024"
+},
+{
+    type: "Projects",
+    name: "Beantown.space",
+    description: "A social network for coffee lovers in the Fediverse",
+    link: "https://beantown.space",
+    linkText: "View App",
+    date: "March 26 2024"
+},
+{
+    type: "Projects",
+    name: "Food Fotos for Fitness",
+    description: "Take a picture and sync nutrition data to Google Fit using AI",
+    link: "https://felker.dev/food-foto-fitness/",
+    linkText: "View App",
+    date: "March 18 2024"
+},
+{
+    type: "Projects",
+    name: "Master Collection for TCG Collector",
+    description: "A Chrome extension to add features to TCG Collector",
+    link: "https://chromewebstore.google.com/detail/master-collection-for-tcg/flnodlaimanojdchfnkocmlokoppoccc",
+    linkText: "View Chrome Web Store",
+    date: "March 29 2024"
+},
+
 ]

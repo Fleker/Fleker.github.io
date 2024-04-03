@@ -67,5 +67,9 @@ export default [
     "link": "https://www.threads.net/@fleker",
     "type": "Threads",
     "icon": "assets/threads.svg",
+  }, {
+    "link": "https://www.tcgcollector.com/dashboard/intl?viewUser=Fleker",
+    "type": "TCG Collector",
+    "icon": "https://static.tcgcollector.com/build/images/pages/_components/navbar-logo.15508095.svg"
   }
 ]

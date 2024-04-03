@@ -327,5 +327,68 @@ export default [
     linkText: "Read on Liberal Currents",
     name: "Recalling the Irish Diaspora",
     date: "December 4 2023"
+  },
+  {
+    type: "Articles",
+    link: "https://www.liberalcurrents.com/a-city-of-liberalism-means-becoming-a-city-of-yes/",
+    linkText: "Read on Liberal Currents",
+    name: "A City of Liberalism Means Becoming a City of Yes",
+    date: "March 28 2024"
+  },
+  {
+    type: "Articles",
+    link: "https://pokejungle.net/tag/origin-of-species/",
+    linkText: "Read on PokéJungle",
+    name: "Origin of Species series - Paldea",
+    date: "March 25 2024"
+  },
+  {
+    type: "Articles",
+    link: "https://fleker.medium.com/using-the-google-drive-api-for-public-folders-f1f7308385ad",
+    linkText: "Read on Medium",
+    name: "Using the Google Drive API for public folders",
+    date: "February 12 2024"
+  },
+  {
+    type: "Articles",
+    link: "https://fleker.medium.com/using-ai-llms-to-reconnect-to-my-hometown-7021fe231798",
+    linkText: "Read on Medium",
+    name: "Using AI & LLMs to reconnect to my hometown",
+    date: "February 19 2024"
+  },
+  {
+    type: "Articles",
+    link: "https://fleker.medium.com/building-untappd-for-coffee-with-sharkey-activitypub-0944b146a0ab",
+    linkText: "Read on Medium",
+    name: "Building Untappd for Coffee with Sharkey & ActivityPub",
+    date: "March 6 2024"
+  },
+  {
+    type: "Articles",
+    link: "https://fleker.medium.com/watching-what-i-eat-using-llms-ai-to-record-nutritional-data-ab4177691e61",
+    linkText: "Read on Medium",
+    name: "Watching what I eat: Using LLMs & AI to record nutritional data",
+    date: "March 18 2024"
+  },
+  {
+    type: "Articles",
+    link: "https://fleker.medium.com/beantown-a-social-network-for-coffee-lovers-built-on-activitypub-5838767e8360",
+    linkText: "Read on Medium",
+    name: "Beantown -- A social network for coffee lovers built on ActivityPub",
+    date: "March 26 2024"
+  },
+  {
+    type: "Articles",
+    link: "https://fleker.medium.com/migrating-user-data-in-firestore-for-a-pok%C3%A9mon-fan-game-934250eb44db",
+    linkText: "Read on Medium",
+    name: "Migrating user data in Firestore for a Pokémon fan game",
+    date: "March 28 2024"
+  },
+  {
+    type: "Articles",
+    link: "https://fleker.medium.com/using-retrieval-augmented-generation-to-create-a-professor-oak-chatbot-ea13a2c3967e",
+    linkText: "Read on Medium",
+    name: "Using Retrieval Augmented Generation to create a Professor Oak chatbot",
+    date: "November 14 2023"
   }
 ]

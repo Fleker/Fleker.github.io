@@ -107,5 +107,13 @@ export default [
       "link": "https://blog.adafruit.com/2020/04/29/icymi-python-on-microcontrollers-micropython-turns-7-circuitpython-5-3-0-rc0-is-out-and-more-python-adafruit-circuitpython-icymi-circuitpython-micropython-thepsf/",
       "linkText": "Read newsletter",
       "date": "April 29 2020"
+  },
+  {
+    "type": "News",
+    "name": "GTA 6 has bike lanes, and yes, drivers will probably park in them",
+    "publication": "Cycling Magazine",
+    "link": "https://cyclingmagazine.ca/sections/news/gta-6-has-bike-lanes-and-yes-drivers-will-probably-park-in-them/",
+    "linkText": "Read Article",
+    "date": "December 6 2023"
   }
 ]
