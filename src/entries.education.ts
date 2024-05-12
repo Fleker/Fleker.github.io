@@ -13,8 +13,8 @@ export default [
   },
   {
       "type": "Education",
-      "name": "Persuing Masters in Electrical & Computer Engineering at Rowan University",
-      "gpa": "TBD",
-      "date": "September 17 2019"
+      "name": "Graduated Rowan University, MS in Electrical & Computer Engineering",
+      "gpa": "4.0",
+      "date": "May 6 2024"
   }
 ]
