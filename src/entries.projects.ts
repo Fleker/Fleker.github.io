@@ -221,5 +221,12 @@ export default [
     linkText: "View Chrome Web Store",
     date: "March 29 2024"
 },
-
+{
+    type: "Projects",
+    name: "Letterboxd for Obsidian",
+    description: "An Obsidian plugin that connects to Letterboxd",
+    link: "https://obsidian.md/plugins?search=letterboxd",
+    linkText: "View Obsidian Community Plugins",
+    date: "April 15 2024"
+},
 ]
