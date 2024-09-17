@@ -390,5 +390,12 @@ export default [
     linkText: "Read on Medium",
     name: "Using Retrieval Augmented Generation to create a Professor Oak chatbot",
     date: "November 14 2023"
+  },
+  {
+    type: "Articles",
+    link: "https://progressivebeacon.substack.com/p/a-warning-to-america-from-vichy",
+    linkText: "Read online",
+    name: "A Warning to America from Vichy",
+    date: "September 10 2024",
   }
 ]
