@@ -386,4 +386,12 @@ export default [
     "contribution": "Hosted event at",
     "specificDate": "Dec 4",
 },
+{
+    "type": "Events",
+    "name": "IEEE YP Game Night",
+    "location": "Manhattan",
+    "date": "September 21 2024",
+    "contribution": "Hosted event at",
+    "specificDate": "Sept 21",
+},
 ]
