@@ -69,4 +69,13 @@ export default [
     "linkText": "Purchase eBook",
     "date": "December 1 2023"
   },
+  {
+    "type": "Books",
+    "name": "The Next Horizon 2024",
+    "series": "The Next Horizon",
+    "seriesNo": "2024",
+    "link": "https://www.amazon.com/gp/product/B0DPVZ85Y9",
+    "linkText": "Purchase eBook",
+    "date": "December 8 2024"
+  },
 ]

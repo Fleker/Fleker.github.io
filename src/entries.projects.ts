@@ -229,4 +229,12 @@ export default [
     linkText: "View Obsidian Community Plugins",
     date: "April 15 2024"
 },
+{
+    type: "Projects",
+    name: "Assorted Plugins for Obsidian",
+    description: "Plugins for the app Obsidian to help consolidate data",
+    link: "https://obsidian.md/plugins?search=Nick%20felker",
+    linkText: "View Obsidian Community Plugins",
+    date: "December 15 2024"
+},
 ]
